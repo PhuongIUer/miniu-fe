@@ -88,6 +88,8 @@ const Profile: React.FC = () => {
         formData,
         {
           headers: {
+
+            'ngrok-skip-browser-warning': 'true',
             'Authorization': `Bearer ${token}`,
             'Content-Type': 'multipart/form-data'
           }
@@ -131,6 +133,7 @@ const Profile: React.FC = () => {
         },
         {
           headers: {
+            'ngrok-skip-browser-warning': 'true',
             'Authorization': `Bearer ${token}`,
             'Content-Type': 'application/json'
           }

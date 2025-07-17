@@ -6,6 +6,9 @@ import type { CurriculumResponse, MajorResponse, ConcentrationResponse, Semester
 import type { RegisterResponse, responseLecturer } from '../types/lecturer'
 const api = axios.create({
   baseURL: 'https://dfd0783d3578.ngrok-free.app/api',
+  headers: {
+    'ngrok-skip-browser-warning': 'true' 
+  }
 });
 
 api.interceptors.request.use((config) => {
