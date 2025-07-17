@@ -5,7 +5,7 @@ import type { Subject, Curriculum } from '../types/curriculum'
 import type { CurriculumResponse, MajorResponse, ConcentrationResponse, SemesterResponse, SubjectResponse} from '../types/response';
 import type { RegisterResponse, responseLecturer } from '../types/lecturer'
 const api = axios.create({
-  baseURL: 'http://localhost:3000/api',
+  baseURL: 'http://192.168.1.9:3000/api',
 });
 
 api.interceptors.request.use((config) => {
