@@ -37,7 +37,9 @@ export default function App() {
   const { fetchUserProfile, isLoggedIn } = useAuthStore();
   
   React.useEffect(() => {
-    // Only fetch profile if token exists
+    if (!localStorage.getItem('authToken')) {
+      window.location.href = '/login'; // Redirect to login if not authenticated
+    }
     if (localStorage.getItem('authToken') && !isLoggedIn) {
       fetchUserProfile();
     }
