@@ -3,7 +3,6 @@ import MainLayout from "./layout/Mainlayout";
 import LoginPage from "./screen/login/LoginPage";
 import AdminPage from "./screen/admin/AdminPage";
 import ProfilePage from "./screen/profile/ProfilePage";
-import HomePage from "./screen/HomePage";
 import ErrorPage from "./screen/error/ErrorPage";
 import { useAuthStore } from "./stores/authStore";
 import React from "react";

@@ -6,7 +6,6 @@ import './ProfilePage.css';
 
 const Profile: React.FC = () => {
   const {
-    userId,
     userName,
     email,
     userAvatar,

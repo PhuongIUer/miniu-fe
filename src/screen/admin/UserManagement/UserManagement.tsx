@@ -3,13 +3,13 @@ import { FaUsers, FaSearch, FaFilter, FaPlus, FaEdit, FaTrash, FaUser } from 're
 import NewUserModal from './NewUserModal';
 import EditUserModal from './EditUserModal';
 import { userApi } from '../../../api/api';
-import type { User, newUser } from '../../../types/user'
+import type { User } from '../../../types/user'
 import './UserManagement.css';
-import type { MajorLecturer, RegisterResponse, MajorLecturerList, Lecturer, responseLecturer } from '../../../types/lecturer'
+import type { MajorLecturerList, } from '../../../types/lecturer'
 import mockData from './mockdata.json'
 
 const UserManagement: React.FC = () => {
-  const [loadingMockData, setloadingMockData] = useState<MajorLecturerList>(mockData);
+  const [loadingMockData] = useState<MajorLecturerList>(mockData);
   const [users, setUsers] = useState<User[]>([]);
   const [filteredUsers, setFilteredUsers] = useState<User[]>([]);
   const [searchTerm, setSearchTerm] = useState('');
