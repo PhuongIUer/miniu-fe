@@ -37,7 +37,7 @@ const Profile: React.FC = () => {
 
   useEffect(() => {
     if (!localStorage.getItem('authToken')) {
-      //window.location.href = '/login'; // Redirect to login if not authenticated
+      window.location.href = '/login'; // Redirect to login if not authenticated
       return;
     }
     fetchUserProfile();
