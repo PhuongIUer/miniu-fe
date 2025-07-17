@@ -5,11 +5,17 @@
     { "path": "./tsconfig.node.json" }
   ],
   "compilerOptions": {
-    "jsx": "react-jsx",   
+    "baseUrl": "./src",
+    "paths": {
+      "@/*": ["./*"]
+    },
+    "jsx": "react-jsx",
     "module": "esnext",
     "moduleResolution": "node",
     "target": "es6",
-    "lib": ["dom", "esnext"],
-    "erasableSyntaxOnly": false
-  }
+    "lib": ["dom", "dom.iterable", "esnext"],
+    "esModuleInterop": true,
+    "strict": true,
+    "skipLibCheck": true
+  },
 }
