@@ -84,7 +84,7 @@ const Profile: React.FC = () => {
       if (currentOffice !== office) formData.append('office', currentOffice);
       
       const response = await axios.patch(
-        'http://192.168.1.9:3000/api/users/current-profile',
+        'http://localhost:3000/api/users/current-profile',
         formData,
         {
           headers: {
@@ -123,7 +123,7 @@ const Profile: React.FC = () => {
       if (!token) throw new Error('No authentication token found');
 
       const response = await axios.post(
-        'http://192.168.1.9:3000/api/auth/change-password',
+        'http://localhost:3000/api/auth/change-password',
         {
           currentPassword,
           newPassword,
