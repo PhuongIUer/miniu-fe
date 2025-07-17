@@ -19,7 +19,7 @@
   background-position: center;
   background-repeat: no-repeat;
   background-color: #f8fafc;
-  animation: zoomFadeBackground 200s infinite;
+  background-image: url('../../assets/bg.gif');
 }
 
 .profile-container::after { 
@@ -30,69 +30,6 @@
   background-color: rgba(0, 0, 0, 0.3);
   z-index: -1; 
 }
-
-@keyframes zoomFadeBackground {
-  0% {
-    background-image: url('../../assets/background/bg-login1.png');
-    transform: scale(1);
-  }
-  10% {
-    transform: scale(1.05);
-  }
-  25% {
-    transform: scale(1.1);
-  }
-
-  /* Image 2 */
-  20% {
-    background-image: url('../../assets/background/bg-login2.png');
-    transform: scale(1.05);
-  }
-  30% {
-    transform: scale(1.1);
-  }
-  45% {
-    transform: scale(1.2);
-  }
-
-  /* Image 3 */
-  40% {
-    background-image: url('../../assets/background/bg-login3.png');
-    transform: scale(1.05);
-  }
-  50% {
-    transform: scale(1.1);
-  }
-  65% {
-    transform: scale(1.2);
-  }
-
-  /* Image 4 */
-  60% {
-    background-image: url('../../assets/background/bg-login4.png');
-    transform: scale(1.05);
-  }
-  70% {
-    transform: scale(1.1);
-  }
-  85% {
-    transform: scale(1.2);
-  }
-
-  /* Image 5 */
-  80% {
-    background-image: url('../../assets/background/bg-login5.png');
-    transform: scale(1.05);
-  }
-  90% {
-    transform: scale(1.1);
-  }
-  99.99% {
-    transform: scale(1.2);
-  }
-
-}
-
 
 .profile-card {
   background-color: #fff;
