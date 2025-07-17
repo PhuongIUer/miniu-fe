@@ -123,7 +123,7 @@ const Profile: React.FC = () => {
       if (!token) throw new Error('No authentication token found');
 
       const response = await axios.post(
-        'http://localhost:3000/api/auth/change-password',
+        'http://192.168.1.9:3000/api/auth/change-password',
         {
           currentPassword,
           newPassword,
