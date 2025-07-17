@@ -26,5 +26,5 @@ app.get('/proxy-image', async (req, res) => {
 
 const PORT = 3001;
 app.listen(PORT, () => {
-  console.log(`🚀 Proxy server is running at http://localhost:${PORT}`);
+  console.log(`🚀 Proxy server is running at https://localhost:${PORT}`);
 });

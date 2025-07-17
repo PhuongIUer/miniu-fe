@@ -84,7 +84,7 @@ const Profile: React.FC = () => {
       if (currentOffice !== office) formData.append('office', currentOffice);
       
       const response = await axios.patch(
-        'http://dfd0783d3578.ngrok-free.app/api/users/current-profile',
+        'https://dfd0783d3578.ngrok-free.app/api/users/current-profile',
         formData,
         {
           headers: {
@@ -123,7 +123,7 @@ const Profile: React.FC = () => {
       if (!token) throw new Error('No authentication token found');
 
       const response = await axios.post(
-        'http://dfd0783d3578.ngrok-free.app/api/auth/change-password',
+        'https://dfd0783d3578.ngrok-free.app/api/auth/change-password',
         {
           currentPassword,
           newPassword,

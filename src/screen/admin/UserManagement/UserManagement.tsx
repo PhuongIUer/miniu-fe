@@ -79,7 +79,7 @@ async function urlToFile(proxyUrl: string, filename?: string): Promise<File> {
   return new File([blob], name, { type: blob.type });
 }
 function proxyUrl(url: string): string {
-  const proxyUrl = `http://localhost:3001/proxy-image?url=${encodeURIComponent(url)}`;
+  const proxyUrl = `https://localhost:3001/proxy-image?url=${encodeURIComponent(url)}`;
   return proxyUrl;
 }
 function encodeEmail(email: string): string {
