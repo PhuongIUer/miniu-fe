@@ -6,7 +6,6 @@ import './AdminPage.css';
 
 const Admin: React.FC = () => {
   const [activeTab, setActiveTab] = useState('users');
-
   return (
     <div className="admin-container">
       <SideBar activeTab={activeTab} setActiveTab={setActiveTab} />
