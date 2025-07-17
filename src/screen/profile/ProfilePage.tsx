@@ -84,7 +84,7 @@ const Profile: React.FC = () => {
       if (currentOffice !== office) formData.append('office', currentOffice);
       
       const response = await axios.patch(
-        'http://localhost:3000/api/users/current-profile',
+        'http://192.168.1.9:3000/api/users/current-profile',
         formData,
         {
           headers: {
