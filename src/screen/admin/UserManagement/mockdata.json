@@ -1,0 +1,1860 @@
+{
+  "majorLecturers": [
+    {
+      "majorName": "School of Computer Science and Engineering",
+      "lecturers": [
+        {
+          "name": "Assoc. Prof. Nguyen Van Sinh",
+          "position": "Dean, Senior Lecturer",
+          "email": "nvsinh@hcmiu.edu.vn",
+          "office": "A1.610, International University",
+          "imageUrl": "https://it.hcmiu.edu.vn/wp-content/uploads/ultimatemember/18/profile_photo-190x190.png?1746492825"
+        },
+        {
+          "name": "Dr. Tran Thanh Tung",
+          "position": "Vice Dean",
+          "email": "tttung@hcmiu.edu.vn",
+          "office": "Room 610, International University",
+          "imageUrl": "https://it.hcmiu.edu.vn/wp-content/uploads/ultimatemember/31/profile_photo.JPG?1746493067"
+        },
+        {
+          "name": "Assoc. Prof. Dinh Duc Anh Vu",
+          "position": "Vice Rector",
+          "email": "ddavu@hcmiu.edu.vn",
+          "office": "International University",
+          "imageUrl": "https://it.hcmiu.edu.vn/wp-content/uploads/ultimatemember/49/profile_photo-190x190.jpg?1746493178"
+        },
+        {
+          "name": "Assoc. Prof. Huynh Kha Tu",
+          "position": "Head, Office of Undergraduate Academic Affairs",
+          "email": "hktu@hcmiu.edu.vn",
+          "office": "Room 610, International University",
+          "imageUrl": "https://it.hcmiu.edu.vn/wp-content/uploads/ultimatemember/5/profile_photo-190x190.jpg?1746493562"
+        },
+        {
+          "name": "Assoc. Prof. Nguyen Thi Thuy Loan",
+          "position": "Head of DS Department",
+          "email": "nttloan@hcmiu.edu.vn",
+          "office": "Room 610, International University",
+          "imageUrl": "https://it.hcmiu.edu.vn/wp-content/uploads/ultimatemember/37/profile_photo-190x190.jpg?1746493563"
+        },
+        {
+          "name": "Assoc. Prof. Vo Thi Luu Phuong",
+          "position": "Head of IT Department",
+          "email": "vtlphuong@hcmiu.edu.vn",
+          "office": "Room 610, International University",
+          "imageUrl": "https://it.hcmiu.edu.vn/wp-content/uploads/ultimatemember/19/profile_photo-190x190.jpg?1746493592"
+        },
+        {
+          "name": "Dr. Ha Viet Uyen Synh",
+          "position": "Head, Center for Information Services",
+          "email": "hvusynh@hcmiu.edu.vn",
+          "office": "Room 610, International University",
+          "imageUrl": "https://it.hcmiu.edu.vn/wp-content/uploads/ultimatemember/13/profile_photo-190.jpg?1746508100"
+        },
+        {
+          "name": "Dr. Ho Long Van",
+          "position": "Lecturer",
+          "email": "hlvan@hcmiu.edu.vn",
+          "office": "A1.610, International University",
+          "imageUrl": "https://it.hcmiu.edu.vn/wp-content/uploads/ultimatemember/83/profile_photo-190x190.jpg?1746508195"
+        },
+        {
+          "name": "Dr. Krystian Wojtkiewicz",
+          "position": "Lecturer",
+          "email": "krystian.wojtkiewicz@gmail.com",
+          "office": "International University",
+          "imageUrl": "https://it.hcmiu.edu.vn/wp-content/uploads/ultimatemember/79/profile_photo-190x190.jpg?1746508449"
+        },
+        {
+          "name": "Dr. Le Thi Ngoc Hanh",
+          "position": "Lecturer",
+          "email": "ltnhanh@hcmiu.edu.vn",
+          "office": "A1.610, International University",
+          "imageUrl": "https://it.hcmiu.edu.vn/wp-content/uploads/ultimatemember/85/profile_photo-190x190.jpg?1746508598"
+        },
+        {
+          "name": "Dr. Le Duy Tan",
+          "position": "Lecturer",
+          "email": "ldtan@hcmiu.edu.vn",
+          "office": "A1.610, International University",
+          "imageUrl": "https://it.hcmiu.edu.vn/wp-content/uploads/ultimatemember/58/profile_photo-190x190.jpg?1746508604"
+        },
+        {
+          "name": "Dr. Le Hai Duong",
+          "position": "Lecturer",
+          "email": "lhduong@hcmiu.edu.vn",
+          "office": "O1.610, International University",
+          "imageUrl": "https://it.hcmiu.edu.vn/wp-content/uploads/ultimatemember/27/profile_photo-190x190.jpg?1747046192"
+        },
+        {
+          "name": "Dr. Ly Tu Nga",
+          "position": "Lecturer",
+          "email": "ltnga@hcmiu.edu.vn",
+          "office": "Room 610, International University",
+          "imageUrl": "https://it.hcmiu.edu.vn/wp-content/uploads/ultimatemember/22/profile_photo-190.jpg?1747046192"
+        },
+        {
+          "name": "Dr. Mai Hoang Bao An",
+          "position": "Lecturer",
+          "email": "mhban@hcmiu.edu.vn",
+          "office": " A1.610, International University",
+          "imageUrl": "https://it.hcmiu.edu.vn/wp-content/uploads/ultimatemember/52/profile_photo-190x190.png?1746509160"
+        },
+        {
+          "name": "Dr. Maleszka Marcin",
+          "position": "Lecturer",
+          "email": "maleszka@pwr.edu.pl",
+          "office": "Wroclaw University of Science and Technology, st. Wyspianskiego 27, 50-370 Wroclaw, Poland",
+          "imageUrl": "https://it.hcmiu.edu.vn/wp-content/uploads/ultimatemember/71/profile_photo-190x190.jpg?1746509102"
+        },
+        {
+          "name": "Dr. Marcin Michał Jodłowiec",
+          "position": "Lecturer",
+          "email": "marcin.jodlowiec@pwr.edu.pl",
+          "office": "International University",
+          "imageUrl": "https://it.hcmiu.edu.vn/wp-content/uploads/ultimatemember/80/profile_photo-190x190.jpg?1746509098"
+        },
+        {
+          "name": "Dr. Nguyen Thi Thanh Sang",
+          "position": "Head, Office of Quality Assurance and Testing",
+          "email": "nttsang@hcmiu.edu.vn",
+          "office": "O1.610, International University",
+          "imageUrl": "https://it.hcmiu.edu.vn/wp-content/uploads/ultimatemember/26/profile_photo-190x190.jpg?1746509256"
+        },
+        {
+          "name": "Dr. Nguyen Toan Van",
+          "position": "Lecturer",
+          "email": "ntoanvan@hcmiu.edu.vn",
+          "office": "Room 610, International University",
+          "imageUrl": "https://it.hcmiu.edu.vn/wp-content/uploads/ultimatemember/72/profile_photo-190x190.jpg?1746509356"
+        },
+        {
+          "name": "Dr. Nguyen Thanh Tuan",
+          "position": "Lecturer",
+          "email": "nttuan@hcmiu.edu.vn",
+          "office": "QM363 Queen Marry Old Royal Naval College, Park Row, London SE10 9LS, UK",
+          "imageUrl": "https://it.hcmiu.edu.vn/wp-content/uploads/ultimatemember/32/profile_photo-190x190.png?1746509348"
+        },
+        {
+          "name": "Dr. Vi Chi Thanh",
+          "position": "Lecturer",
+          "email": "vcthanh@hcmiu.edu.vn",
+          "office": "A1.610, International University",
+          "imageUrl": "https://it.hcmiu.edu.vn/wp-content/uploads/ultimatemember/74/profile_photo-190x190.jpeg?1746509929"
+        },
+        {
+          "name": "Dr. Nguyen Trung Ky",
+          "position": "Lecturer",
+          "email": "ntky@hcmiu.edu.vn",
+          "office": "O1.610, International University",
+          "imageUrl": "https://it.hcmiu.edu.vn/wp-content/uploads/ultimatemember/70/profile_photo.png?1746509775"
+        },
+        {
+          "name": "MSc. Dang Tam Nhan",
+          "position": "Lecturer",
+          "email": "dtnhan@hcmiu.edu.vn",
+          "office": "A1.610, International University",
+          "imageUrl": "https://it.hcmiu.edu.vn/wp-content/uploads/ultimatemember/36/profile_photo-190.png?1746512007"
+        },
+        {
+          "name": "MSc. Le Thanh Son",
+          "position": "Lecturer",
+          "email": "ltson@hcmiu.edu.vn",
+          "office": "A1.610, International University",
+          "imageUrl": "https://it.hcmiu.edu.vn/wp-content/uploads/ultimatemember/21/profile_photo-190.jpg?1746512007"
+        },
+        {
+          "name": "MSc. Nguyen Quang Phu",
+          "position": "Lecturer",
+          "email": "nqphu@hcmiu.edu.vn",
+          "office": "A1.610, International University",
+          "imageUrl": "https://it.hcmiu.edu.vn/wp-content/uploads/ultimatemember/43/profile_photo-190x190.png?1746512008"
+        },
+        {
+          "name": "MSc. Nguyen Trung Nghia",
+          "position": "Lecturer",
+          "email": "ntnghia@hcmiu.edu.vn",
+          "office": "A1.610, International University",
+          "imageUrl": "https://it.hcmiu.edu.vn/wp-content/uploads/ultimatemember/42/profile_photo-190x190.jpg?1746512009"
+        },
+        {
+          "name": "MSc. Thai Trung Tin",
+          "position": "Lecturer",
+          "email": "tttin@hcmiu.edu.vn",
+          "office": "A1.610, International University",
+          "imageUrl": "https://it.hcmiu.edu.vn/wp-content/uploads/ultimatemember/86/profile_photo-190x190.jpg?1746512009"
+        },
+        {
+          "name": "Do Thi Hong Nhung",
+          "position": "Secretary",
+          "email": "dthnhung@hcmiu.edu.vn",
+          "office": "Room 610, International University",
+          "imageUrl": "https://it.hcmiu.edu.vn/wp-content/uploads/ultimatemember/73/profile_photo-190x190.jpg?1746510186"
+        },
+        {
+          "name": "Nguyen Thi Huyen",
+          "position": "Secretary",
+          "email": "nthuyen@hcmiu.edu.vn",
+          "office": "Room 610, International University",
+          "imageUrl": "https://it.hcmiu.edu.vn/wp-content/uploads/ultimatemember/57/profile_photo-190x190.jpg?1746510185"
+        },
+        {
+          "name": "B.Eng. Thai My Linh",
+          "position": "Secretary",
+          "email": "tmlinh@hcmiu.edu.vn",
+          "office": "Room 610, International University",
+          "imageUrl": "https://it.hcmiu.edu.vn/wp-content/uploads/ultimatemember/11/profile_photo-190.jpg?1746510186"
+        }
+      ]
+    },
+    {
+      "majorName": "School of Business",
+      "lecturers": [
+        {
+          "name": "Dr. PHAN TRIEU ANH",
+          "position": "Head of Business Management, Lecturer",
+          "email": "ptanh@hcmiu.edu.vn",
+          "office": "Room O1.308, International University",
+          "imageUrl": "https://bs.hcmiu.edu.vn/Uploads/Files/380/759919e8f4ff42838351972e7074f244.jpg"
+        },
+        {
+          "name": "Assoc. Prof. Dr. NGUYEN NHU TY",
+          "position": "Lecturer",
+          "email": "nhutynguyen@hcmiu.edu.vn",
+          "office": "Room O1.308, International University",
+          "imageUrl": "https://bs.hcmiu.edu.vn/Uploads/Files/107/e5531701ce124d5f84033c59bfa7b596.jpg"
+        },
+        {
+          "name": "Dr. VO TUONG HUAN",
+          "position": "Lecturer",
+          "email": "vthuan@hcmiu.edu.vn",
+          "office": "O2.704, International University",
+          "imageUrl": "https://bs.hcmiu.edu.vn/Uploads/Files/87/f3e6f9e6517142b690205222869f0a70.png"
+        },
+        {
+          "name": "Dr. NGUYEN MINH TUAN",
+          "position": "Lecturer",
+          "email": "nmtuan@hcmiu.edu.vn",
+          "office": "Room O1.308, International University",
+          "imageUrl": "https://bs.hcmiu.edu.vn/Uploads/Files/106/68be8617bc8c44928c64d5569b9963cb.jpg"
+        },
+        {
+          "name": "Dr. NGUYEN NHU TUNG",
+          "position": "Lecturer",
+          "email": "nntung@hcmiu.edu.vn",
+          "office": "Room O1.308, International University",
+          "imageUrl": "https://bs.hcmiu.edu.vn/Uploads/Files/188/3313c847c50b45f78324a7f77c179ca0.jpg"
+        },
+        {
+          "name": "Dr. NGUYEN HOANG PHU",
+          "position": "Lecturer",
+          "email": "nhphu@hcmiu.edu.vn",
+          "office": "O1.304, International University",
+          "imageUrl": "https://bs.hcmiu.edu.vn/Uploads/Files/97/d69569900b284bb7b2373a8ba098162b.jpg"
+        },
+        {
+          "name": "Dr. NGUYEN HAI TRUNG",
+          "position": "Lecturer",
+          "email": "nhtrung@hcmiu.edu.vn",
+          "office": "O1.304, International University",
+          "imageUrl": "https://bs.hcmiu.edu.vn/Uploads/Files/481/4d3f02ed775744dd86248d828d2cb0bb.jpg"
+        },
+        {
+          "name": "Dr. NGHIEM THI BICH HA",
+          "position": "Lecturer",
+          "email": "ntbha@hcmiu.edu.vn",
+          "office": "Room O1.308, International University",
+          "imageUrl": "https://bs.hcmiu.edu.vn/Uploads/Files/432/3fa71e4109a540ad834fdc6c00fe89fc.jpeg"
+        },
+        {
+          "name": "Dr. PHAN THI NGỌC MINH",
+          "position": "Lecturer",
+          "email": "ptnminh@hcmiu.edu.vn",
+          "office": "O1.304, International University",
+          "imageUrl": "https://bs.hcmiu.edu.vn/Uploads/Files/429/a1b45235cb414e4d82e0e62817956231.jpeg"
+        },
+        {
+          "name": "Mr. NGUYEN TAN MINH",
+          "position": "Lecturer",
+          "email": "ntminh@hcmiu.edu.vn",
+          "office": "O1.304, International University",
+          "imageUrl": "https://bs.hcmiu.edu.vn/Uploads/Files/88/c3fd912ad72e4532bbc8426bbae8b1b1.jpg"
+        },
+        {
+          "name": "Ms. BUI DOAN DANH THAO",
+          "position": "Lecturer",
+          "email": "bddthao@hcmiu.edu.vn",
+          "office": "O1.306, International University",
+          "imageUrl": "https://bs.hcmiu.edu.vn/Uploads/Files/187/53eddcd1c9bb48b4b69685a7a80edf8c.jpg"
+        },
+        {
+          "name": "Ms. BUI THI THAO HIEN",
+          "position": "Lecturer",
+          "email": "btthien@hcmiu.edu.vn",
+          "office": "O1.305, International University",
+          "imageUrl": "https://bs.hcmiu.edu.vn/Uploads/Files/96/1819639e5d074196bbe27374e0339d0e.jpg"
+        },
+        {
+          "name": "Mr. MAI THE KIEN",
+          "position": "Lecturer",
+          "email": "mtkien@hcmiu.edu.vn",
+          "office": "O1.304, International University",
+          "imageUrl": "https://bs.hcmiu.edu.vn/Uploads/Files/95/26a33b85b5ae4eab99916f4e3db5a9bf.jpg"
+        },
+        {
+          "name": "Ms. PHUOC VAN HANH",
+          "position": "Lecturer",
+          "email": "pvhanh@hcmiu.edu.vn",
+          "office": "O1.306, International University",
+          "imageUrl": "https://bs.hcmiu.edu.vn/Uploads/Files/191/e0aa837df0144c87a6709dbc7c6c205e.jpg"
+        },
+        {
+          "name": "Mr. NGUYEN MINH QUAN",
+          "position": "Lecturer",
+          "email": "nmquan@hcmiu.edu.vn",
+          "office": "Room O1.308, International University",
+          "imageUrl": "https://bs.hcmiu.edu.vn/Uploads/Files/492/f2fbe8e580824315a0ab9d985628aff2.jpeg"
+        },
+        {
+          "name": "Mr. NGUYEN DUC HIEU",
+          "position": "Lecturer",
+          "email": "ndhieu@hcmiu.edu.vn",
+          "office": "Room O1.308, International University",
+          "imageUrl": "https://bs.hcmiu.edu.vn/Uploads/Files/433/fe04d867e832482292b385daef36080f.JPG"
+        },
+        {
+          "name": "Ms. PHAN VU HOANG YEN",
+          "position": "Staff Manager",
+          "email": "pvhyen@hcmiu.edu.vn",
+          "office": "O1.306, International University",
+          "imageUrl": "https://bs.hcmiu.edu.vn/Uploads/Files/18/23272bd8424940fdaa48aa1b5efd9689.jpg"
+        },
+        {
+          "name": "Assoc. Prof. Dr. HA MINH TRI",
+          "position": "Dean of BS, Lecturer",
+          "email": "hmtri@hcmiu.edu.vn",
+          "office": "O1.304, International University",
+          "imageUrl": "https://bs.hcmiu.edu.vn/Uploads/Files/77/11878c4df1e94772ae943b6549894abb.png"
+        },
+        {
+          "name": "Assoc. Prof. LE DINH MINH TRI",
+          "position": "Head of Graduate Affairs, Lecturer",
+          "email": "ldmtri@hcmiu.edu.vn",
+          "office": "O2.609, International University",
+          "imageUrl": "https://bs.hcmiu.edu.vn/Uploads/Files/79/51fef844f44d404aba6eadcf224ba25b.jpg"
+        },
+        {
+          "name": "Dr. ALANG THO",
+          "position": "Head of Marketing, Lecturer",
+          "email": " alangtho@hcmiu.edu.vn",
+          "office": "O1.304, International University",
+          "imageUrl": "https://bs.hcmiu.edu.vn/Uploads/Files/375/389ac71f885a4898814396bb7e3acbb4.jpg"
+        },
+        {
+          "name": "Assoc. Prof. TRAN TIEN KHOA",
+          "position": "Lecturer",
+          "email": "ttkhoa@hcmiu.edu.vn",
+          "office": "O2.707, International University",
+          "imageUrl": "https://bs.hcmiu.edu.vn/Uploads/Files/192/9c4235bd2a744bdc93306ec97f5abb45.jpg"
+        },
+        {
+          "name": "Prof. Dr. Zafar U. Ahmed",
+          "position": "Lecturer",
+          "email": "zafaruahmed@gmail.com ",
+          "office": "BBA (New York), MBA (Texas)",
+          "imageUrl": "https://bs.hcmiu.edu.vn/Uploads/Files/394/e91f6dbf42b34f1d8403204a84df7c58.jpg"
+        },
+        {
+          "name": "Dr. TON NU NGỌC HÂN",
+          "position": "Lecturer",
+          "email": "tnnhan@hcmiu.edu.vn",
+          "office": "O2.304, International University",
+          "imageUrl": "https://bs.hcmiu.edu.vn/Uploads/Files/283/afe092f8076046fca26c5f5f763b829c.jpg"
+        },
+        {
+          "name": "Dr. HOANG DUC SINH",
+          "position": "Lecturer",
+          "email": "hdsinh@hcmiu.edu.vn",
+          "office": "O1.304, International University",
+          "imageUrl": "https://bs.hcmiu.edu.vn/Uploads/Files/493/041b7b7724594846ac15a956241c8e75.png"
+        },
+        {
+          "name": "Dr. NGUYEN THE MAN",
+          "position": "Lecturer",
+          "email": "ntman@hcmiu.edu.vn",
+          "office": "O1.304, International University",
+          "imageUrl": "https://bs.hcmiu.edu.vn/Uploads/Files/424/bf621b077dfb444b8896f744f1373357.jpeg"
+        },
+        {
+          "name": "Ms. NGUYEN QUE TIEN",
+          "position": "Lecturer",
+          "email": "nqtien@hcmiu.edu.vn",
+          "office": "O1.305, International University",
+          "imageUrl": "https://bs.hcmiu.edu.vn/Uploads/Files/78/566abc2f895e4dae8b020a0ad17d2d89.jpg"
+        },
+        {
+          "name": "Ms. BUI THANH THANH",
+          "position": "Lecturer",
+          "email": "btthanh@hcmiu.edu.vn",
+          "office": "O1.304, International University",
+          "imageUrl": "https://bs.hcmiu.edu.vn/Uploads/Files/393/af019a608db74e8c828f1ccca1897831.jpg"
+        },
+        {
+          "name": "Mr. LAI VINH PHUC",
+          "position": "Lecturer",
+          "email": "lvphuc@hcmiu.edu.vn",
+          "office": "O1.304, International University",
+          "imageUrl": "https://bs.hcmiu.edu.vn/Uploads/Files/274/821425fa80194b6d993bf6f52a2d78cd.png"
+        },
+        {
+          "name": "Assoc. Prof. Dr. PHAM TAN NHAT",
+          "position": "Head of Hospitality Management, Lecturer",
+          "email": "ptnhat@hcmiu.edu.vn",
+          "office": "O1.307, International University",
+          "imageUrl": "https://bs.hcmiu.edu.vn/Uploads/Files/376/80b7e1f6348945e1abc71669a830b61b.png"
+        },
+        {
+          "name": "Assoc. Prof. MAI NGOC KHUONG",
+          "position": "Lecturer",
+          "email": "mnkhuong@hcmiu.edu.vn",
+          "office": "O1.307, International University",
+          "imageUrl": "https://bs.hcmiu.edu.vn/Uploads/Files/81/058278c6a1744cfe8433bc2dc518c76e.jpg"
+        },
+        {
+          "name": "Dr. PHAM THANH HUYEN",
+          "position": "Lecturer",
+          "email": "pthuyen@hcmiu.edu.vn",
+          "office": "O1.304, International University",
+          "imageUrl": "https://bs.hcmiu.edu.vn/Uploads/Files/83/3330c53dda974cbf9cdd56b69fd218ae.jpg"
+        },
+        {
+          "name": "Mr. NGUYEN TRAN NGUYEN KHAI",
+          "position": "Lecturer",
+          "email": "ntnkhai@hcmiu.edu.vn",
+          "office": "O1.304, International University",
+          "imageUrl": "https://bs.hcmiu.edu.vn/Uploads/Files/82/c90db868d6454355813b4ad0f5f6f0a7.jpg"
+        },
+        {
+          "name": "Ms. NGUYEN DUY YEN LINH",
+          "position": "Lecturer",
+          "email": "ndylinh@hcmiu.edu.vn",
+          "office": "O1.304, International University",
+          "imageUrl": "https://bs.hcmiu.edu.vn/Uploads/Files/84/b3cd3210813c447d9c5ecf4ae26c588a.png"
+        },
+        {
+          "name": "Mr. HO TRUNG HIEU",
+          "position": "Lecturer",
+          "email": "hthieu@hcmiu.edu.vn",
+          "office": "O1.304, International University",
+          "imageUrl": "https://bs.hcmiu.edu.vn/Uploads/Files/285/3c97f2d8264f4fe28de90149616d5631.png"
+        },
+        {
+          "name": "Ms. PHUNG PHUONG LINH",
+          "position": "Lecturer",
+          "email": "pplinh@hcmiu.edu.vn",
+          "office": "O1.304, International University",
+          "imageUrl": "https://bs.hcmiu.edu.vn/Uploads/Files/282/5965c2bf62dc42e0831cceda45549162.jpeg"
+        },
+        {
+          "name": "Ms. NGUYEN VU ANH TRAM",
+          "position": "Lecturer",
+          "email": "nvatram@hcmiu.edu.vn",
+          "office": "O1.304, International University",
+          "imageUrl": "https://bs.hcmiu.edu.vn/Uploads/Files/275/0a31279c066545a3b368663eeb10627f.jpg"
+        },
+        {
+          "name": "Dr. BUI QUANG THONG",
+          "position": "Head of International Business Management, Lecturer",
+          "email": "bqthong@hcmiu.edu.vn",
+          "office": "Room O1.308, International University",
+          "imageUrl": "https://bs.hcmiu.edu.vn/Uploads/Files/135/dd23c23f383446dcb6198429d2383a1e.jpg"
+        },
+        {
+          "name": "Dr. CAO MINH MAN",
+          "position": "Lecturer",
+          "email": "cmman@hcmiu.edu.vn",
+          "office": "Room O1.308, International University",
+          "imageUrl": "https://bs.hcmiu.edu.vn/Uploads/Files/378/d7b1acea924049d1b4b83fe29d81dbb8.jpg"
+        },
+        {
+          "name": "Dr. NGUYEN HONG ANH",
+          "position": "Lecturer",
+          "email": "nhanh@hcmiu.edu.vn",
+          "office": "O1.307, International University",
+          "imageUrl": "https://bs.hcmiu.edu.vn/Uploads/Files/379/b5265c5a5a844a2ca7a9ef7a6fe60501.jpeg"
+        },
+        {
+          "name": "Dr. HUYNH THI NGOC HIEN",
+          "position": "Lecturer",
+          "email": "htnhien@hcmiu.edu.vn",
+          "office": "O1.304, International University",
+          "imageUrl": "https://bs.hcmiu.edu.vn/Uploads/Files/377/efb3dd8d61fa4e2594beede2610118a8.jpg"
+        },
+        {
+          "name": "Dr. DINH THI LE TRINH",
+          "position": "Lecturer",
+          "email": "dtltrinh@hcmiu.edu.vn",
+          "office": "O1.304, International University",
+          "imageUrl": "https://bs.hcmiu.edu.vn/Uploads/Files/480/d7e9f3ddf8e34f04b17d0fe808d30968.jpeg"
+        },
+        {
+          "name": "Dr. LE THI KIM TRANG",
+          "position": "Lecturer",
+          "email": "ltktrang@hcmiu.edu.vn",
+          "office": "O1.304, International University",
+          "imageUrl": "https://bs.hcmiu.edu.vn/Uploads/Files/494/3ef51abda9c94308b584740b6a313a45.jpg"
+        },
+        {
+          "name": "Dr. NGUYEN DANG THUAN AN",
+          "position": "Lecturer",
+          "email": "ndtan@hcmiu.edu.vn",
+          "office": "O1.304, International University",
+          "imageUrl": "https://bs.hcmiu.edu.vn/Uploads/Files/507/a1fd8829b84e4893b1a1c33e715b4c46.jpg"
+        },
+        {
+          "name": "Ms. NGUYEN THI HONG AN",
+          "position": "Lecturer",
+          "email": "nthan@hcmiu.edu.vn",
+          "office": "Room O1.308, International University",
+          "imageUrl": "https://bs.hcmiu.edu.vn/Uploads/Files/137/8f99d0faaa474c2da3616f01cb2bc436.jpg"
+        },
+        {
+          "name": "Ms. NGUYEN VO HIEN CHAU",
+          "position": "Lecturer",
+          "email": "nvhchau@hcmiu.edu.vn",
+          "office": "O1.306, International University",
+          "imageUrl": "https://bs.hcmiu.edu.vn/Uploads/Files/139/77ad8604ad7a44409b53b5ce9bfbcb4b.jpg"
+        },
+        {
+          "name": "Ms. DANG THI UYEN THAO",
+          "position": "Lecturer",
+          "email": "dtuthao@hcmiu.edu.vn",
+          "office": "Room O1.308, International University",
+          "imageUrl": "https://bs.hcmiu.edu.vn/Uploads/Files/140/4d4a77a15b7743039e6ec273a3c7647a.jpg"
+        }
+      ]
+    },
+    {
+      "majorName": "Department of Physics",
+      "lecturers": [
+        {
+          "name": "Assoc. Prof. Dr. Phan Bảo Ngọc",
+          "position": "Dean of Physics",
+          "email": "pbngoc@hmciu.edu.vn",
+          "office": "Room A1-503",
+          "imageUrl": "https://physics.hcmiu.edu.vn/wp-content/uploads/2023/12/image-2.png"
+        },
+        {
+          "name": "Dr. Phan Hiền Vũ",
+          "position": "Vice Dean of Physics, Lecturer",
+          "email": "phvu@hcmiu.edu.vn",
+          "office": "Room A1-503",
+          "imageUrl": "https://physics.hcmiu.edu.vn/wp-content/uploads/2022/11/PHVu-1.png"
+        },
+        {
+          "name": "Dr. Đỗ Xuân Hội",
+          "position": "Lecturer",
+          "email": "dxhoi@hcmiu.edu.vn",
+          "office": "Room A1-503",
+          "imageUrl": "https://physics.hcmiu.edu.vn/wp-content/uploads/2022/11/DXHoi_1.png"
+        },
+        {
+          "name": "Dr. Nguyễn Quang",
+          "position": "Lecturer",
+          "email": "nquang@hcmiu.edu.vn",
+          "office": "Room A1-503",
+          "imageUrl": "https://physics.hcmiu.edu.vn/wp-content/uploads/2024/06/343560348_687417499853691_1048970933629702781_n-1-768x776.jpg"
+        },
+        {
+          "name": "Assoc. Prof. Dr. Hồ Quốc Bằng",
+          "position": "Lecturer",
+          "email": "hqbang@hcmiu.edu.vn",
+          "office": "Room A1-503",
+          "imageUrl": "https://physics.hcmiu.edu.vn/wp-content/uploads/2022/11/HQBang.png"
+        },
+        {
+          "name": "Dr. Lương Bảo Bình",
+          "position": "Lecturer",
+          "email": "lbbinh@hcmiu.edu.vn",
+          "office": "Room A1-503",
+          "imageUrl": "https://physics.hcmiu.edu.vn/wp-content/uploads/2022/11/LBBinh.png"
+        },
+        {
+          "name": "Dr. Hồ Đình Duẩn",
+          "position": "Lecturer",
+          "email": "hdduan@hcmiu.edu.vn",
+          "office": "Room A1-503",
+          "imageUrl": "https://physics.hcmiu.edu.vn/wp-content/uploads/2022/11/HDDuan.png"
+        },
+        {
+          "name": "Dr. Lê Xuân Huy",
+          "position": "Lecturer",
+          "email": "lxhuy@hcmiu.edu.vn",
+          "office": "Room A1-503",
+          "imageUrl": "https://physics.hcmiu.edu.vn/wp-content/uploads/2022/11/LXHuy.png"
+        },
+        {
+          "name": "MBs. Trương Thị Ngọc Phượng",
+          "position": "Lecturer",
+          "email": "ttnphuong@hcmiu.edu.vn",
+          "office": "Room A1-503",
+          "imageUrl": "https://physics.hcmiu.edu.vn/wp-content/uploads/2022/11/TTNPhuong.png"
+        },
+        {
+          "name": "Dr. Trịnh Xuân Thắng",
+          "position": "Lecturer",
+          "email": "txthang@hcmiu.edu.vn",
+          "office": "Room A1-503",
+          "imageUrl": "https://physics.hcmiu.edu.vn/wp-content/uploads/2022/11/TXThang-768x768.png"
+        },
+        {
+          "name": "Dr. Lê Thanh Vân",
+          "position": "Lecturer",
+          "email": "ltvan@hcmiu.edu.vn",
+          "office": "Room A1-503",
+          "imageUrl": "https://physics.hcmiu.edu.vn/wp-content/uploads/2022/11/LTVan.png"
+        },
+        {
+          "name": "MBs. Lê Thị Quế",
+          "position": "Reseacher",
+          "email": "ltque@hcmiu.edu.vn",
+          "office": "Room A1-503",
+          "imageUrl": "https://physics.hcmiu.edu.vn/wp-content/uploads/2022/11/LTQue_1.png"
+        },
+        {
+          "name": "MBs. Trịnh Thanh Thủy",
+          "position": "Reseacher",
+          "email": "ttthuy@hcmiu.edu.vn",
+          "office": "Room A1-503",
+          "imageUrl": "https://physics.hcmiu.edu.vn/wp-content/uploads/2022/11/TTThuy_1.png"
+        },
+        {
+          "name": "Đặng Thị Bích Hạnh",
+          "position": "Secretary",
+          "email": "dtbhanh@hcmiu.edu.vn",
+          "office": "Room A1-503",
+          "imageUrl": "https://physics.hcmiu.edu.vn/wp-content/uploads/2022/11/DTBHanh.png"
+        }
+      ]
+    },
+    {
+      "majorName": "School of Industrial Engineering and Management",
+      "lecturers": [
+        {
+          "name": "Assoc. Prof. NGUYỄN VĂN HỢP",
+          "position": "Dean of International University",
+          "email": "nvhop@hcmiu.edu.vn",
+          "office": "A2.602, International University",
+          "imageUrl": "https://iem.hcmiu.edu.vn/wp-content/uploads/2019/05/anhhop-964x1024.jpg"
+        },
+        {
+          "name": "Dr. HÀ THỊ XUÂN CHI",
+          "position": "Vice Dean of International University",
+          "email": "htxchi@hcmiu.edu.vn",
+          "office": "A2.602, International University",
+          "imageUrl": "https://iem.hcmiu.edu.vn/wp-content/uploads/2023/08/C-Chi.jpg"
+        },
+        {
+          "name": "Dr. NGUYỄN VĂN CHUNG",
+          "position": "Lecturer",
+          "email": "nvchung@hcmiu.edu.vn",
+          "office": "A2.602, International University",
+          "imageUrl": "https://iem.hcmiu.edu.vn/wp-content/uploads/2022/06/T-Chung.jpg"
+        },
+        {
+          "name": "Dr. PHẠM HUỲNH TRÂM",
+          "position": "Lecturer",
+          "email": "phtram@hcmiu.edu.vn",
+          "office": "A2.602, International University",
+          "imageUrl": "https://iem.hcmiu.edu.vn/wp-content/uploads/2022/06/C-Tram-1-1.jpg"
+        },
+        {
+          "name": "Dr. ĐÀO VŨ TRƯỜNG SƠN",
+          "position": "Lecturer",
+          "email": "dvtson@hcmiu.edu.vn",
+          "office": "A2.504, International University",
+          "imageUrl": "https://iem.hcmiu.edu.vn/wp-content/uploads/2022/06/A-Son-1.jpg"
+        },
+        {
+          "name": "Assoc.Prof. PHAN NGUYỄN KỲ PHÚC",
+          "position": "Lecturer",
+          "email": "pnkphuc@hcmiu.edu.vn",
+          "office": "A2.602, International University",
+          "imageUrl": "https://iem.hcmiu.edu.vn/wp-content/uploads/2022/06/A-Phuc.jpg"
+        },
+        {
+          "name": "M.Eng. TRẦN VĂN LÝ",
+          "position": "Lecturer",
+          "email": "tvly@hcmiu.edu.vn",
+          "office": "A2.504, International University",
+          "imageUrl": "https://iem.hcmiu.edu.vn/wp-content/uploads/2022/06/ly-1-1.jpg"
+        },
+        {
+          "name": "ĐÀO THỊ XUÂN DUYÊN",
+          "position": "Lecturer",
+          "email": "dtxduyen@hcmiu.edu.vn",
+          "office": "A2.602, International University",
+          "imageUrl": "https://iem.hcmiu.edu.vn/wp-content/uploads/2023/08/duyen.jpg"
+        },
+        {
+          "name": "B. Eng. NGUYỄN LÊ MINH HOA",
+          "position": "Teaching Assistant",
+          "email": "nlmhoa@hcmiu.edu.vn",
+          "office": "Room A2.603, International University",
+          "imageUrl": "https://iem.hcmiu.edu.vn/wp-content/uploads/2023/08/hoa.jpg"
+        },
+        {
+          "name": "B.Eng. Nguyễn Lê Phương Thảo",
+          "position": "Teaching Assistant",
+          "email": "nlpthao@hcmiu.edu.vn",
+          "office": "Room A2.614, International University",
+          "imageUrl": "https://iem.hcmiu.edu.vn/wp-content/uploads/2022/06/69bb179b9bc06f9e36d1-1.jpg"
+        },
+        {
+          "name": "Assoc. Prof. Dr. Hồ Thị Thu Hòa",
+          "position": "Head of Department of Logistics and Supply Chain Management",
+          "email": "htthoa@hcmiu.edu.vn",
+          "office": "A2.602, International University",
+          "imageUrl": "https://iem.hcmiu.edu.vn/wp-content/uploads/2022/06/THA_8888.jpg"
+        },
+        {
+          "name": "M.Sc. DƯƠNG VÕ NHỊ ANH",
+          "position": "Lecturer",
+          "email": "dvnanh@hcmiu.edu.vn",
+          "office": "A2.504, International University",
+          "imageUrl": "https://iem.hcmiu.edu.vn/wp-content/uploads/2022/06/a-NA.jpg"
+        },
+        {
+          "name": "Dr. Nguyễn Hằng Giang Anh",
+          "position": "Lecturer",
+          "email": "nhganh@hcmiu.edu.vn",
+          "office": "Room O2.602, International University",
+          "imageUrl": "https://iem.hcmiu.edu.vn/wp-content/uploads/2019/12/DSCF1083-683x1024-2.jpg"
+        },
+        {
+          "name": "M.Sc. NGÔ THỊ THẢO UYÊN",
+          "position": "Lecturer",
+          "email": "nttuyen@hcmiu.edu.vn",
+          "office": "Room 602, International University",
+          "imageUrl": "https://iem.hcmiu.edu.vn/wp-content/uploads/2022/06/Uyen-Ngo2409-copy.jpg"
+        },
+        {
+          "name": "Dr. TRẦN ĐỨC VĨ",
+          "position": "Lecturer",
+          "email": "tdvi@hcmiu.edu.vn",
+          "office": "Room A2.603, International University",
+          "imageUrl": "https://iem.hcmiu.edu.vn/wp-content/uploads/2018/04/Vi_picture-1.jpg"
+        },
+        {
+          "name": "MSc. NGUYỄN HOÀNG HUY",
+          "position": "Lecturer",
+          "email": "nhhuy@hcmiu.edu.vn",
+          "office": "Room A2.603, International University",
+          "imageUrl": "https://iem.hcmiu.edu.vn/wp-content/uploads/2022/06/A-Huy.jpg"
+        },
+        {
+          "name": "B.Eng. Trần Đức Khánh Tân",
+          "position": "Teaching Assistant",
+          "email": "tdktan@hcmiu.edu.vn",
+          "office": "Room A2.614, International University",
+          "imageUrl": "https://iem.hcmiu.edu.vn/wp-content/plugins/elementor/assets/images/placeholder.png"
+        },
+        {
+          "name": "B.Eng. Đoàn Thuý Nhã",
+          "position": "Teaching Assistant",
+          "email": "dtnha@hcmiu.edu.vn",
+          "office": "Room A2.614, International University",
+          "imageUrl": "https://iem.hcmiu.edu.vn/wp-content/uploads/2023/08/nha.jpg"
+        },
+        {
+          "name": "Đặng Thị Ngọc Linh",
+          "position": "Secretary",
+          "email": "dtnlinh@hcmiu.edu.vn",
+          "office": "Room A2.602",
+          "imageUrl": "https://iem.hcmiu.edu.vn/wp-content/uploads/2022/07/linh.jpg"
+        },
+        {
+          "name": "Lê Hồng Phúc",
+          "position": "Secretary",
+          "email": "lhphuc@hcmiu.edu.vn",
+          "office": "Room A2.602",
+          "imageUrl": "https://iem.hcmiu.edu.vn/wp-content/uploads/2023/08/phuc.jpg"
+        },
+        {
+          "name": "M.Eng. ĐỖ VĨNH TRÚC",
+          "position": "Lab Technician",
+          "email": "dvtruc@hcmiu.edu.vn",
+          "office": "Room 613, School of Industrial engineering and management",
+          "imageUrl": "https://iem.hcmiu.edu.vn/wp-content/uploads/2023/08/T-Truc.jpg"
+        },
+        {
+          "name": "M.Sc. Nguyễn Phát Nhựt",
+          "position": "Lab Technician",
+          "email": "npnhut@hcmiu.edu.vn",
+          "office": "Room 613, School of Industrial engineering and management",
+          "imageUrl": "https://iem.hcmiu.edu.vn/wp-content/uploads/2023/08/nhut.jpg"
+        },
+        {
+          "name": "M.Sc Nguyễn Trường Nguyên",
+          "position": "Lab Technician",
+          "email": "ntnguyen@hcmiu.edu.vn",
+          "office": "Room A2.107, School of Industrial engineering and management",
+          "imageUrl": "https://iem.hcmiu.edu.vn/wp-content/uploads/2023/08/nguyen.jpg"
+        },
+        {
+          "name": "Mr Nguyễn Văn Hải",
+          "position": "Lab Technician",
+          "email": "nvhai@hcmiu.edu.vn",
+          "office": "Room A2. 614, School of Industrial engineering and management",
+          "imageUrl": "https://iem.hcmiu.edu.vn/wp-content/uploads/2023/08/Hai.jpg"
+        },
+        {
+          "name": "M.Sc. Nguyễn Ngọc Minh",
+          "position": "Lab Technician",
+          "email": "nnminh@hcmiu.edu.vn",
+          "office": "Room A2. 614, School of Industrial engineering and management",
+          "imageUrl": "https://iem.hcmiu.edu.vn/wp-content/uploads/2023/08/minh.jpg"
+        },
+        {
+          "name": "M.Sc. Phạm Tuấn Anh",
+          "position": "Lab Technician",
+          "email": "ptuananh@hcmiu.edu.vn",
+          "office": "Room A2. 614, School of Industrial engineering and management",
+          "imageUrl": "https://iem.hcmiu.edu.vn/wp-content/uploads/2023/08/tuananh.jpg"
+        },
+        {
+          "name": "M.Eng Tran Thị Thanh Nguyen",
+          "position": "Technician",
+          "email": "npnhut@hcmiu.edu.vn",
+          "office": "Room A2.107, School of Industrial engineering and management",
+          "imageUrl": "https://iem.hcmiu.edu.vn/wp-content/uploads/2023/08/C-Nguyen.jpg"
+        }
+      ]
+    },
+    {
+      "majorName": "School of Electrical Engineering",
+      "lecturers": [
+        {
+          "name": "Dr. Nguyễn Ngọc Trường Minh",
+          "position": "Head of Department of Telecommunications",
+          "email": "nntminh@hcmiu.edu.vn",
+          "office": "Room O2.206",
+          "imageUrl": "https://see.hcmiu.edu.vn/wp-content/uploads/2022/12/nntminh.jpeg"
+        },
+        {
+          "name": "Assoc. Prof. Nguyễn Bình Dương",
+          "position": "Lecturer",
+          "email": "nbduong@hcmiu.edu.vn",
+          "office": "Room O2. 206",
+          "imageUrl": "https://see.hcmiu.edu.vn/wp-content/uploads/2022/12/nbduong.jpg"
+        },
+        {
+          "name": "M. Sc. Trần Văn Sư",
+          "position": "Lecturer",
+          "email": "tvsu@hcmiu.edu.vn",
+          "office": "Room O2. 206",
+          "imageUrl": "https://see.hcmiu.edu.vn/wp-content/uploads/2022/12/tvsu.jpeg"
+        },
+        {
+          "name": "Dr. Nguyễn Đình Uyên",
+          "position": "Lecturer",
+          "email": "nduyen@hcmiu.edu.vn",
+          "office": "Room O2.206",
+          "imageUrl": "https://see.hcmiu.edu.vn/wp-content/uploads/2023/02/nduyen.jpeg"
+        },
+        {
+          "name": "Dr. Phạm Trung Kiên",
+          "position": "Lecturer",
+          "email": "ptkien@hcmiu.edu.vn",
+          "office": "Room O2.206",
+          "imageUrl": "https://see.hcmiu.edu.vn//wp-content/uploads/2022/12/ptkien.jpeg"
+        },
+        {
+          "name": "M. Eng. Võ Minh Thạnh ",
+          "position": "Lecturer",
+          "email": "vmthanh@hcmiu.edu.vn",
+          "office": "Room LA2. 201",
+          "imageUrl": "https://see.hcmiu.edu.vn/wp-content/uploads/2022/12/vmthanh.jpeg"
+        },
+        {
+          "name": "Dr. Huỳnh Tấn Quốc",
+          "position": "Lecturer",
+          "email": "htquoc@hcmiu.edu.vn",
+          "office": "Room O2. 206",
+          "imageUrl": "https://see.hcmiu.edu.vn/wp-content/uploads/2023/02/htquoc.jpeg"
+        },
+        {
+          "name": "Dr. Huỳnh Võ Trung Dũng",
+          "position": "Lecturer",
+          "email": "hvtdung@hcmiu.edu.vn",
+          "office": "Room O2. 206",
+          "imageUrl": "https://see.hcmiu.edu.vn/wp-content/uploads/2024/11/z6004246887538_72ac4fe4961f8ecdee2de5e8a8f42b4b-728x1024.jpg"
+        },
+        {
+          "name": "M. Eng. Đỗ Ngọc Hùng",
+          "position": "Lecturer",
+          "email": "dnhung@hcmiu.edu.vn",
+          "office": "Room O2. 206",
+          "imageUrl": "https://see.hcmiu.edu.vn//wp-content/uploads/2022/12/dnhung.jpeg"
+        },
+        {
+          "name": "Dr. Vương Quốc Bảo",
+          "position": "Lecturer",
+          "email": "vqbao@hcmiu.edu.vn",
+          "office": "Room LA2. 109",
+          "imageUrl": "https://see.hcmiu.edu.vn//wp-content/uploads/2022/12/vqbao.jpeg"
+        },
+        {
+          "name": "Dr. Tạ Quang Hiển",
+          "position": "Lecturer",
+          "email": "tqhien@hcmiu.edu.vn",
+          "office": "Room O2. 206",
+          "imageUrl": "https://see.hcmiu.edu.vn//wp-content/uploads/2022/12/tqhien-300x300.png"
+        },
+        {
+          "name": "Dr. Nguyễn Lập Luật",
+          "position": "Lecturer",
+          "email": "nlluat@hcmiu.edu.vn",
+          "office": "Room O2. 206",
+          "imageUrl": "https://see.hcmiu.edu.vn//wp-content/uploads/2022/12/nguyenlapluat-296x300.jpeg"
+        },
+        {
+          "name": "M. Eng. Nguyễn Hoàng An",
+          "position": "Lecturer",
+          "email": "nhan@hcmiu.edu.vn",
+          "office": "Room LA2. 109",
+          "imageUrl": "https://see.hcmiu.edu.vn//wp-content/uploads/2022/12/nhan.jpeg"
+        },
+        {
+          "name": "M. Eng. Nguyễn Minh Thiện",
+          "position": "Lecturer",
+          "email": "nmthien@hcmiu.edu.vn",
+          "office": "Room LA2. 109",
+          "imageUrl": "https://see.hcmiu.edu.vn/wp-content/uploads/2022/12/nmthien.jpeg"
+        },
+        {
+          "name": "Dr. Nguyễn Văn Bình",
+          "position": "Lecturer",
+          "email": "nvbinh@hcmiu.edu.vn",
+          "office": "Room O2.206",
+          "imageUrl": "https://see.hcmiu.edu.vn//wp-content/uploads/2022/12/nvbinh.jpeg"
+        },
+        {
+          "name": "Dr. Tôn Thất Long",
+          "position": "Lecturer",
+          "email": "ttlong@hcmiu.edu.vn",
+          "office": "Room LA2. 210",
+          "imageUrl": "https://see.hcmiu.edu.vn/wp-content/uploads/2023/02/ttlong-update.jpg"
+        },
+        {
+          "name": "M. Eng. Trang Kiến",
+          "position": "Lecturer",
+          "email": "tkien@hcmiu.edu.vn",
+          "office": "Room LA2. 109",
+          "imageUrl": "https://see.hcmiu.edu.vn//wp-content/uploads/2022/12/tkien.jpeg"
+        },
+        {
+          "name": "M. BA Lý Thị Mỹ Dung",
+          "position": "Secretary",
+          "email": "ltmdung@hcmiu.edu.vn",
+          "office": "Room O2. 206",
+          "imageUrl": "https://see.hcmiu.edu.vn/wp-content/uploads/2022/12/ltmdung.jpeg"
+        },
+        {
+          "name": "Ms. Bùi Bích Trâm",
+          "position": "Secretary",
+          "email": "bbtram@hcmiu.edu.vn",
+          "office": "Room O2. 206",
+          "imageUrl": "https://see.hcmiu.edu.vn/wp-content/uploads/2022/12/bbtram.jpeg"
+        },
+        {
+          "name": "M. Eng. Lê Minh Tuấn",
+          "position": "Lab Technician",
+          "email": "lmtuan@hcmiu.edu.vn",
+          "office": "Room LA2. 201",
+          "imageUrl": "https://see.hcmiu.edu.vn/wp-content/uploads/2022/12/lmtuan_2.jpeg"
+        },
+        {
+          "name": "M. Eng. Huỳnh Trần Minh Trí",
+          "position": "Lab Technician",
+          "email": "htmtri@hcmiu.edu.vn",
+          "office": "Room LA2. 207",
+          "imageUrl": "https://see.hcmiu.edu.vn/wp-content/uploads/2022/12/316990555_1598715737214869_8597374094403161228_n.jpg"
+        },
+        {
+          "name": "M. Eng. Nguyễn Lập Phương Uyên",
+          "position": "Lab Technician",
+          "email": "nlpuyen@hcmiu.edu.vn",
+          "office": "Room LA2. 210",
+          "imageUrl": "https://see.hcmiu.edu.vn/wp-content/uploads/2022/12/nlpuyen.jpeg"
+        },
+        {
+          "name": "Mr. Đặng Trí Nhân",
+          "position": "Lab Technician",
+          "email": "nhandt@hcmiu.edu.vn",
+          "office": "Room Workshop",
+          "imageUrl": "https://see.hcmiu.edu.vn/wp-content/uploads/2022/12/dtnhan.jpeg"
+        },
+        {
+          "name": "Mr. Nguyễn Bằng Đăng Huy",
+          "position": "Teaching Assistant",
+          "email": "nbdhuy@hcmiu.edu.vn",
+          "office": "Room LA2. 202",
+          "imageUrl": "https://see.hcmiu.edu.vn/wp-content/uploads/2022/12/nbdhuy.jpeg"
+        },
+        {
+          "name": "Mr. Trần Minh Hiếu",
+          "position": "Teaching Assistant",
+          "email": "tmhieu@hcmiu.edu.vn",
+          "office": "Room LA2. 201",
+          "imageUrl": "https://see.hcmiu.edu.vn/wp-content/uploads/2022/12/tran_minh_hieu_2.jpeg"
+        }
+      ]
+    },
+    {
+      "majorName": "School of Chemical & Environmental Engineering",
+      "lecturers": [
+        {
+          "name": "Assoc. Prof. Huỳnh Kim Lâm",
+          "position": "Dean of Chemical & Environmental Engineering",
+          "email": "hklam@hcmiu.edu.vn",
+          "office": "Room LA.712",
+          "imageUrl": "https://cee.hcmiu.edu.vn/wp-content/uploads/2022/11/IMG_5887_5x5_a-270x270.jpg"
+        },
+        {
+          "name": "Dr. Nguyễn Thị Thuỷ",
+          "position": "Vice Dean of Chemical & Environmental Engineering",
+          "email": "ntthuy@hcmiu.edu.vn",
+          "office": "Room LA1-712",
+          "imageUrl": "https://cee.hcmiu.edu.vn/wp-content/uploads/2022/12/co-Thuy.jpg"
+        },
+        {
+          "name": "Assoc. Prof. Dr. Trần Tiến Khôi",
+          "position": "Dean of Environmental Engineering",
+          "email": "ttkhoi@hcmiu.edu.vn",
+          "office": "Room A2-513",
+          "imageUrl": "https://cee.hcmiu.edu.vn/wp-content/uploads/2022/12/thay-Khoi-270x270.jpg"
+        },
+        {
+          "name": "Dr. Phùng Thanh Khoa",
+          "position": "Lecturer",
+          "email": "ptkhoa@hcmiu.edu.vn",
+          "office": "Room LA1-712",
+          "imageUrl": "https://cee.hcmiu.edu.vn/wp-content/uploads/2022/12/thay-Khoa-270x270.jpg"
+        },
+        {
+          "name": "Dr. Nguyễn Thị Hoàng Hải",
+          "position": "Lecturer",
+          "email": "nthhai@hcmiu.edu.vn",
+          "office": "International University",
+          "imageUrl": "https://cee.hcmiu.edu.vn/wp-content/uploads/2022/12/co-Hai-1-270x270.png"
+        },
+        {
+          "name": "Dr. Vũ Bảo Khánh",
+          "position": "Lecturer",
+          "email": "vbkhanh@hcmiu.edu.vn",
+          "office": "International University",
+          "imageUrl": "https://cee.hcmiu.edu.vn/wp-content/uploads/2022/12/thay-Khanh-288x300.png"
+        },
+        {
+          "name": "Dr. Đoàn Hoài Linh",
+          "position": "Lecturer",
+          "email": "dhlinh@hcmiu.edu.vn",
+          "office": "International University",
+          "imageUrl": "https://cee.hcmiu.edu.vn/wp-content/uploads/2022/12/thay-Linh.png"
+        },
+        {
+          "name": "Dr. Ngô Thị Thuận",
+          "position": "Lecturer",
+          "email": "ntthuan@hcmiu.edu.vn",
+          "office": "International University",
+          "imageUrl": "https://cee.hcmiu.edu.vn/wp-content/uploads/2022/12/co-Thuan-269x270.jpg"
+        },
+        {
+          "name": "Dr. Nguyễn Thảo Trang",
+          "position": "Lecturer",
+          "email": "nttrang@hcmiu.edu.vn",
+          "office": "Room A1-705",
+          "imageUrl": "https://cee.hcmiu.edu.vn/wp-content/uploads/2022/12/co-Trang-300x296.jpg"
+        },
+        {
+          "name": "Dr. Trần Thanh Tú",
+          "position": "Lecturer",
+          "email": "tttu@hcmiu.edu.vn",
+          "office": "Room A2-513",
+          "imageUrl": "https://cee.hcmiu.edu.vn/wp-content/uploads/2022/12/co-Tu-270x270.jpg"
+        },
+        {
+          "name": "MSc. Ngô Nguyễn Tiến Đạt",
+          "position": "Teaching Assistant",
+          "email": "nntdat@hcmiu.edu.vn",
+          "office": "International University",
+          "imageUrl": "https://cee.hcmiu.edu.vn/wp-content/uploads/2023/03/NgoNguyenTienDat-copy-2-263x270.png"
+        },
+        {
+          "name": "MCs. Nguyễn Thị Thúy Hằng",
+          "position": "Secretary",
+          "email": "ntthang@hcmiu.edu.vn",
+          "office": "International University",
+          "imageUrl": "https://cee.hcmiu.edu.vn/wp-content/uploads/2022/02/Hang-1-scaled-e1670569661351.jpg"
+        },
+        {
+          "name": "Nguyễn Thị Kim Tuyền",
+          "position": "Secretary",
+          "email": "ntktuyen@hcmiu.edu.vn",
+          "office": "International University",
+          "imageUrl": "https://cee.hcmiu.edu.vn/wp-content/uploads/2019/07/2016-10-06-12.50.27_crop-e1672040081505-292x270.jpg"
+        },
+        {
+          "name": "MCs. Trần Lê Đăng Khoa",
+          "position": "Lab Technical",
+          "email": "tldkhoa@hcmiu.edu.vn",
+          "office": "International University",
+          "imageUrl": "https://cee.hcmiu.edu.vn/wp-content/uploads/2019/07/2016-10-06-12.50.27_crop-e1672040081505-292x270.jpg"
+        },
+        {
+          "name": "Đặng Ngọc Quân",
+          "position": "Lab Technical",
+          "email": "dnquan@hcmiu.edu.vn",
+          "office": "International University",
+          "imageUrl": "https://cee.hcmiu.edu.vn/wp-content/uploads/2023/03/45d2fa73b7c56d9b34d4-e1677726220498.jpg"
+        }
+      ]
+    },
+    {
+      "majorName": "Department of Mathematics",
+      "lecturers": [
+        {
+          "name": "Prof. Dr. Pham Huu Anh Ngoc",
+          "position": "Dean of Mathmatics",
+          "email": "phangoc@hcmiu.edu.vn",
+          "office": "Room A2.606",
+          "imageUrl": "https://math.hcmiu.edu.vn/wp-content/uploads/2024/07/profile_photo-190x190-1.jpg"
+        },
+        {
+          "name": "MSc. Kha Kim Bảo Hân",
+          "position": "Lecturer",
+          "email": "kkbhan@hcmiu.edu.vn",
+          "office": "Room A2.606",
+          "imageUrl": "https://math.hcmiu.edu.vn/wp-content/uploads/2024/07/profile_photo-190x190-1-1.jpg"
+        },
+        {
+          "name": "Assoc. Prof. Dr. Mai Đức Thành",
+          "position": "Lecturer",
+          "email": "mdthanh@hcmiu.edu.vn",
+          "office": "Room A2.610",
+          "imageUrl": "https://math.hcmiu.edu.vn/wp-content/uploads/2024/07/profile_photo-190x190-2.jpg"
+        },
+        {
+          "name": "Assoc. Prof. Dr. Nguyễn Minh Quân",
+          "position": "Lecturer",
+          "email": "quannm@hcmiu.edu.vn",
+          "office": "Room A2.610",
+          "imageUrl": "https://math.hcmiu.edu.vn/wp-content/uploads/2024/07/profile_photo-190x190-3.jpg"
+        },
+        {
+          "name": "Dr.Nguyễn Anh Tú",
+          "position": "Lecturer",
+          "email": "natu@hcmiu.edu.vn",
+          "office": "Room A2.610",
+          "imageUrl": "https://math.hcmiu.edu.vn/wp-content/uploads/2024/07/profile_photo-190x190-5.jpg"
+        },
+        {
+          "name": "Assoc. Prof. Dr. Nguyễn Ngọc Hải",
+          "position": "Lecturer",
+          "email": "nnhai@hcmiu.edu.vn",
+          "office": "Room A2.610",
+          "imageUrl": "https://math.hcmiu.edu.vn/wp-content/uploads/2024/07/profile_photo-190x190-4.jpg"
+        },
+        {
+          "name": "Prof. Dr. Sc. Nguyễn Định",
+          "position": "Lecturer",
+          "email": "ndinh@hcmiu.edu.vn",
+          "office": "Room A2.610",
+          "imageUrl": "https://math.hcmiu.edu.vn/wp-content/uploads/2024/07/profile_photo-190x190-6.jpg"
+        },
+        {
+          "name": "Dr. Nguyen Hai Ha",
+          "position": "Lecturer",
+          "email": "nhha@hcmiu.edu.vn",
+          "office": "Room A2.503",
+          "imageUrl": "https://math.hcmiu.edu.vn/wp-content/uploads/2024/07/profile_photo-190x190-7-1.jpg"
+        },
+        {
+          "name": "Dr. Tạ Quốc Bảo",
+          "position": "Lecturer",
+          "email": "baotq@hcmiu.edu.vn",
+          "office": "Room A2.610",
+          "imageUrl": "https://math.hcmiu.edu.vn/wp-content/uploads/2024/07/profile_photo-190x190-8.jpg"
+        },
+        {
+          "name": "Assoc.  Prof.  Dr. Trần Vũ Khanh",
+          "position": "Lecturer",
+          "email": "tvkhanh@hcmiu.edu.vn",
+          "office": "Room A2.610",
+          "imageUrl": "https://math.hcmiu.edu.vn/wp-content/uploads/2024/07/profile_photo-190x190-9.jpg"
+        },
+        {
+          "name": "Dr. Lê Nhật Tân",
+          "position": "Lecturer",
+          "email": "lntan@hcmiu.edu.vn",
+          "office": "Room A2.610",
+          "imageUrl": "https://math.hcmiu.edu.vn/wp-content/uploads/2024/07/profile_photo-190x190-10.jpg"
+        },
+        {
+          "name": "Associate Professor Trần Mạnh Hà",
+          "position": "Lecturer",
+          "email": "tmha@hcmiu.edu.vn",
+          "office": "Room A2.610",
+          "imageUrl": "https://math.hcmiu.edu.vn/wp-content/uploads/2024/07/profile_photo-190.jpg"
+        },
+        {
+          "name": "Dr. Nguyễn Phương Anh",
+          "position": "Lecturer",
+          "email": "npanh@hcmiu.edu.vn",
+          "office": "Room A2.610",
+          "imageUrl": "https://math.hcmiu.edu.vn/wp-content/uploads/2024/07/blankpp-215x215.png"
+        },
+        {
+          "name": "Dr. Lê Lam Sơn",
+          "position": "Lecturer",
+          "email": "llson@hcmiu.edu.vn",
+          "office": "Room A2.610",
+          "imageUrl": "https://math.hcmiu.edu.vn/wp-content/uploads/2024/07/blankpp-215x215.png"
+        },
+        {
+          "name": "Dr. Cao Minh Mẫn",
+          "position": "Lecturer",
+          "email": "cmman@hcmiu.edu.vn",
+          "office": "Room A2.610",
+          "imageUrl": "https://math.hcmiu.edu.vn/wp-content/uploads/2024/07/blankpp-215x215.png"
+        },
+        {
+          "name": "Vũ Mỹ Linh",
+          "position": "Teaching Assistant",
+          "email": "vmlinh@hcmiu.edu.vn",
+          "office": "Room A2.610",
+          "imageUrl": "https://math.hcmiu.edu.vn/wp-content/uploads/2024/07/profile_photo-190x190-12.jpg"
+        },
+        {
+          "name": "Bùi Thị Hương",
+          "position": "Secretary",
+          "email": "bthuong@hcmiu.edu.vn",
+          "office": "Room A2.610",
+          "imageUrl": "https://math.hcmiu.edu.vn/wp-content/uploads/2024/07/profile_photo-190x190-11.jpg"
+        }
+      ]
+    },
+    {
+      "majorName": "School of Civil Engineering and Management",
+      "lecturers": [
+        {
+          "name": "Dr. Phạm Nguyễn Linh Khánh",
+          "position": "Dean of Civil Engineering and Management Department",
+          "email": "pnlkhanh@hcmiu.edu.vn",
+          "office": "Room O1-506",
+          "imageUrl": "https://cem.hcmiu.edu.vn/wp-content/uploads/2023/03/Khanh-526x526.jpg"
+        },
+        {
+          "name": "Pro. Dr. Lê Văn Cảnh",
+          "position": "Vice Dean of Civil Engineering and Management Department",
+          "email": "lvcanh@hcmiu.edu.vn",
+          "office": "Room O1-506",
+          "imageUrl": "https://cem.hcmiu.edu.vn/wp-content/uploads/2023/03/sep-Canh-526x526.jpg"
+        },
+        {
+          "name": "Assoc. Prof. Dr. Trần Cao Thanh Ngọc",
+          "position": "Lecturer",
+          "email": "tctngoc@hcmiu.edu.vn",
+          "office": "Room O1-506",
+          "imageUrl": "https://cem.hcmiu.edu.vn/wp-content/uploads/2023/03/Thanh-Ngoc-1-526x526.jpg"
+        },
+        {
+          "name": "Assoc. Prof. Dr. Phạm Ngọc",
+          "position": "Lecturer",
+          "email": "pngoc@hcmiu.edu.vn",
+          "office": "Room O1-506",
+          "imageUrl": "https://cem.hcmiu.edu.vn/wp-content/uploads/2023/03/Pham-Ngoc-526x526.jpg"
+        },
+        {
+          "name": "M.Sc. Phạm Nhân Hòa",
+          "position": "Lecturer",
+          "email": "pnhoa@hcmiu.edu.vn",
+          "office": "Room O1-506",
+          "imageUrl": "https://cem.hcmiu.edu.vn/wp-content/uploads/2023/03/Hoa-526x526.jpg"
+        },
+        {
+          "name": "M.Sc. Cabaltica Doliente Angeli",
+          "position": "Lecturer",
+          "email": "angeli.dc@hcmiu.edu.vn",
+          "office": "Room O1-506",
+          "imageUrl": "https://cem.hcmiu.edu.vn/wp-content/uploads/2023/03/ANGELI-526x526.jpg"
+        },
+        {
+          "name": "Dr. Nguyễn Hoài Nghĩa",
+          "position": "Lecturer",
+          "email": "nhnghia@hcmiu.edu.vn",
+          "office": "Room O1-506",
+          "imageUrl": "https://cem.hcmiu.edu.vn/wp-content/uploads/2023/03/a-Nghia-526x526.jpg"
+        },
+        {
+          "name": "Dr. Nguyễn Văn Tiếp",
+          "position": "Lecturer",
+          "email": "nvtiep@hcmiu.edu.vn",
+          "office": "Room O1-506",
+          "imageUrl": "https://cem.hcmiu.edu.vn/wp-content/uploads/2023/03/Tiep-526x526.jpg"
+        },
+        {
+          "name": "Dr. Nguyễn Bá Quang Vinh",
+          "position": "Lecturer",
+          "email": "nbqvinh@hcmiu.edu.vn",
+          "office": "Room O1-506",
+          "imageUrl": "https://cem.hcmiu.edu.vn/wp-content/uploads/2023/03/Vinh-526x526.jpg"
+        },
+        {
+          "name": "M.Sc. Nguyễn Phạm Duy Phương",
+          "position": "Lecturer",
+          "email": "npdpuong@hcmiu.edu.vn",
+          "office": "Room O1-506",
+          "imageUrl": "https://cem.hcmiu.edu.vn/wp-content/uploads/2023/03/Phuong-526x526.jpg"
+        },
+        {
+          "name": "Dr. Phạm Thanh Tùng",
+          "position": "Lecturer",
+          "email": "pttung@hcmiu.edu.vn",
+          "office": "Room O1-506",
+          "imageUrl": "https://cem.hcmiu.edu.vn/wp-content/uploads/2023/03/Tung.png"
+        },
+        {
+          "name": "M.Sc Phạm Văn Bảo",
+          "position": "Lecturer",
+          "email": "pvbao@hcmiu.edu.vn",
+          "office": "Room O1-506",
+          "imageUrl": "https://cem.hcmiu.edu.vn/wp-content/uploads/2023/03/PHAM-VAN-BAO-526x526.jpg"
+        },
+        {
+          "name": "Dr. Trần Thanh Hà",
+          "position": "Lecturer",
+          "email": "ttha@hcmiu.edu.vn",
+          "office": "Room O1-506",
+          "imageUrl": "https://cem.hcmiu.edu.vn/wp-content/uploads/2023/12/anh-4x6-1-225x225.jpg"
+        }
+      ]
+    },
+    {
+      "majorName": "Department of Biotechnology",
+      "lecturers": [
+        {
+          "name": " Assoc. Prof. Thuan V Nguyen",
+          "position": "Dean of Biotechnology",
+          "email": "nvthuan@hcmiu.edu.vn",
+          "office": "Room A1-713",
+          "imageUrl": "https://bt.hcmiu.edu.vn/ftp_images/ua_13072023104117116.jpg"
+        },
+        {
+          "name": "Assoc. Prof. Tu HK Nguyen",
+          "position": "Vice Dean of Biotechnology, Lecturer",
+          "email": "nhktu@hcmiu.edu.vn",
+          "office": "Room O1-708",
+          "imageUrl": "https://bt.hcmiu.edu.vn/ftp_images/ua_03042023015546840.jpeg"
+        },
+        {
+          "name": "Dr. Thanh M Nguyen",
+          "position": "Vice Dean of Biotechnology",
+          "email": "nmthanh@hcmiu.edu.vn",
+          "office": "Room O1-708",
+          "imageUrl": "https://bt.hcmiu.edu.vn/ftp_images/ua_10072023103432724.jpg"
+        },
+        {
+          "name": "Assoc. Prof. Minh V Tran",
+          "position": "Lecturer",
+          "email": "drminh.ptntd@yahoo.com",
+          "office": "Room A1-707",
+          "imageUrl": "https://bt.hcmiu.edu.vn/ftp_images/ua_11072023014255962.jpeg"
+        },
+        {
+          "name": "Assoc. Prof. Thuy H Bui",
+          "position": "Lecturer",
+          "email": "bhthuy@hcmiu.edu.vn",
+          "office": "Room A1-713",
+          "imageUrl": "https://bt.hcmiu.edu.vn/ftp_images/ua_05092023022837283.JPG"
+        },
+        {
+          "name": "Assoc. Prof. Hanh TM Tran",
+          "position": "Lecturer",
+          "email": "ttmhanh@hcmiu.edu.vn",
+          "office": "Room A1-707",
+          "imageUrl": "https://bt.hcmiu.edu.vn/ftp_images/ua_26082024074541175.jpg"
+        },
+        {
+          "name": "Assoc. Prof. Hoai TT Nguyen",
+          "position": "Lecturer",
+          "email": "ntthoai@hcmiu.edu.vn",
+          "office": "Room A1-707",
+          "imageUrl": "https://bt.hcmiu.edu.vn/ftp_images/ua_07072023020051864.jpg"
+        },
+        {
+          "name": "Assoc. Prof. Thao P Nguyen",
+          "position": "Lecturer",
+          "email": "npthao@hcmiu.edu.vn",
+          "office": "International University",
+          "imageUrl": "https://bt.hcmiu.edu.vn/ftp_images/ua_16082023101310611.jpg"
+        },
+        {
+          "name": "Dr. Thong M Le",
+          "position": "Lecturer",
+          "email": "lmthong@hcmiu.edu.vn",
+          "office": "Room A1-707",
+          "imageUrl": "https://bt.hcmiu.edu.vn/ftp_images/ua_09072023105300225.jpg"
+        },
+        {
+          "name": "Dr. Diep H Pham",
+          "position": "Lecturer",
+          "email": "phdiep@hcmiu.edu.vn",
+          "office": "Room A1-707",
+          "imageUrl": "https://bt.hcmiu.edu.vn/ftp_images/ua_08072023102540006.jpg"
+        },
+        {
+          "name": "MSc. Hang T Tong",
+          "position": "Lecturer",
+          "email": "tthang@hcmiu.edu.vn",
+          "office": "Room A1-707",
+          "imageUrl": "https://bt.hcmiu.edu.vn/ftp_images/ua_10072023102909280.jpg"
+        },
+        {
+          "name": "MSc. Xuan TL Hoang",
+          "position": "Lecturer",
+          "email": "htlxuan@hcmiu.edu.vn",
+          "office": "Room A1-707",
+          "imageUrl": "https://bt.hcmiu.edu.vn/ftp_images/ua_10072023085907974.png"
+        },
+        {
+          "name": "Dr. Yen TH Tran",
+          "position": "Lecturer",
+          "email": "tthyen@hcmiu.edu.vn",
+          "office": "Room A1-707",
+          "imageUrl": "https://bt.hcmiu.edu.vn/ftp_images/ua_06072023075858617.jpeg"
+        },
+        {
+          "name": "Dr. Nhut M Tran",
+          "position": "Lecturer",
+          "email": "tmnhut@hcmiu.edu.vn",
+          "office": "International University",
+          "imageUrl": "https://bt.hcmiu.edu.vn/ftp_images/ua_09072023093743819.jpg"
+        },
+        {
+          "name": "Assoc. Prof. Hue T Nguyen",
+          "position": "Lecturer",
+          "email": "nthue@hcmus.edu.vn",
+          "office": "International University",
+          "imageUrl": "https://bt.hcmiu.edu.vn/ftp_images/ua_11072023015052080.jpg"
+        },
+        {
+          "name": "Dr. Tien N Phan",
+          "position": "Lecturer",
+          "email": "phantien@pnt.edu.vn",
+          "office": "International University",
+          "imageUrl": "https://img.freepik.com/free-vector/businessman-character-avatar-isolated_24877-60111.jpg"
+        },
+        {
+          "name": "Assoc. Prof. Hoang D Nguyen",
+          "position": "Lecturer",
+          "email": "ndhoang@hcmus.edu.vn",
+          "office": "Center of Bioscience and Biotechnology",
+          "imageUrl": "https://bt.hcmiu.edu.vn/ftp_images/ua_10072023054830438.jpg"
+        },
+        {
+          "name": "Dr. Tram TH Le",
+          "position": "Lecturer",
+          "email": "lthtram@hcmut.edu.vn",
+          "office": "International University",
+          "imageUrl": "https://bt.hcmiu.edu.vn/ftp_images/ua_17072023111709571.jpg"
+        },
+        {
+          "name": "Dr. Giang T Nguyen Dien",
+          "position": "Researcher",
+          "email": "ndtgiang@hcmiu.edu.vn",
+          "office": "International University",
+          "imageUrl": "https://bt.hcmiu.edu.vn/ftp_images/ua_11072023111239230.jpg"
+        },
+        {
+          "name": "MSc. Chau NP Do",
+          "position": "Researcher",
+          "email": "dnpchau@hcmiu.edu.vn",
+          "office": "Room O1-707",
+          "imageUrl": "https://bt.hcmiu.edu.vn/ftp_images/ua_11072023015435534.jpg"
+        },
+        {
+          "name": "MSc. Lan G T Nguyen",
+          "position": "Researcher",
+          "email": "ngtlan@hcmiu.edu.vn",
+          "office": "International University",
+          "imageUrl": "https://bt.hcmiu.edu.vn/ftp_images/ua_08072023101732461.jpg"
+        },
+        {
+          "name": "MSc. Hoa T Bui",
+          "position": "Lab Technician",
+          "email": "bth@hcmiu.edu.vn",
+          "office": "Room LA1.709",
+          "imageUrl": "https://bt.hcmiu.edu.vn/ftp_images/ua_05072023015812587.png"
+        },
+        {
+          "name": "MSc. Anh TL Dang",
+          "position": "Lab Technician",
+          "email": "dtlanh@hcmiu.edu.vn",
+          "office": "Room LA1.702",
+          "imageUrl": "https://bt.hcmiu.edu.vn/ftp_images/ua_05072023031818593.jpg"
+        },
+        {
+          "name": "MSc. Co H Ho",
+          "position": "Lab Technician",
+          "email": "hhco@hcmiu.edu.vn",
+          "office": "Room LA1.701",
+          "imageUrl": "https://bt.hcmiu.edu.vn/ftp_images/ua_06072023104313120.jpg"
+        },
+        {
+          "name": "MSc. Chien M Pham",
+          "position": "Lab Technician",
+          "email": "pmchien@hcmiu.edu.vn",
+          "office": "Room LA1-710",
+          "imageUrl": "https://bt.hcmiu.edu.vn/ftp_images/ua_05072023042516587.jpeg"
+        },
+        {
+          "name": "MSc. Hai T Nguyen",
+          "position": "Lab Technician",
+          "email": "nthai@hcmiu.edu.vn",
+          "office": "Aqualab",
+          "imageUrl": "https://bt.hcmiu.edu.vn/ftp_images/ua_06072023033822720.jpg"
+        },
+        {
+          "name": "BSc. Anh N L Huynh",
+          "position": "Lab Technician",
+          "email": "hnlanh@hcmiu.edu.vn",
+          "office": "Room LA1-710",
+          "imageUrl": "https://bt.hcmiu.edu.vn/ftp_images/ua_09072024110410904.JPG"
+        },
+        {
+          "name": "Dr. Phong Q Le",
+          "position": "Head of Department of Applied Chemistry",
+          "email": "lqphong@hcmiu.edu.vn",
+          "office": "Room A1-705",
+          "imageUrl": "https://bt.hcmiu.edu.vn/ftp_images/ua_08072023110606914.jpeg"
+        },
+        {
+          "name": "Dr. Son L Hoang",
+          "position": "Lecturer",
+          "email": "hlson@hcmiu.edu.vn",
+          "office": "Room A1-705",
+          "imageUrl": "https://bt.hcmiu.edu.vn/ftp_images/ua_09072023024340344.jpg"
+        },
+        {
+          "name": "Assoc. Prof. Hoa T Pham",
+          "position": "Lecturer",
+          "email": "pthoa@hcmiu.edu.vn",
+          "office": "Room A1-705",
+          "imageUrl": "https://bt.hcmiu.edu.vn/ftp_images/ua_06072023103907809.jpg"
+        },
+        {
+          "name": "Assoc. Prof. Khoi T Nguyen",
+          "position": "Lecturer",
+          "email": "ntkhoi@hcmiu.edu.vn",
+          "office": "Room A1-705",
+          "imageUrl": "https://bt.hcmiu.edu.vn/ftp_images/ua_05072023024247598.jpg"
+        },
+        {
+          "name": "Dr. Ngoc T Vu",
+          "position": "Lecturer",
+          "email": "vtngoc@hcmiu.edu.vn",
+          "office": "Room A1-705",
+          "imageUrl": "https://bt.hcmiu.edu.vn/ftp_images/ua_06072023101232178.jpg"
+        },
+        {
+          "name": "MSc. Ngoc T H Le",
+          "position": "Reseacher",
+          "email": "lthngoc@hcmiu.edu.vn",
+          "office": "Room LA1-501",
+          "imageUrl": "https://bt.hcmiu.edu.vn/ftp_images/ua_09072023043002307.jpg"
+        },
+        {
+          "name": "MSc. Tram N Y Bui",
+          "position": "Reseacher",
+          "email": "bnytram@hcmiu.edu.vn",
+          "office": "Room LA1-703",
+          "imageUrl": "https://bt.hcmiu.edu.vn/ftp_images/ua_12072024124531780.jpg"
+        },
+        {
+          "name": "BSc. Phong T Nguyen",
+          "position": "Teaching Asssistant",
+          "email": "phongnt@hcmiu.edu.vn",
+          "office": "Room LA1.502",
+          "imageUrl": "https://bt.hcmiu.edu.vn/ftp_images/ua_08072023023955711.jpg"
+        },
+        {
+          "name": "MSc. Giang DL Vo",
+          "position": "Lab Technician",
+          "email": "vdlgiang@hcmiu.edu.vn",
+          "office": "Room LA1.502",
+          "imageUrl": "https://bt.hcmiu.edu.vn/ftp_images/ua_06072023080027645.jpg"
+        },
+        {
+          "name": "BSc. Thu A N Nguyen",
+          "position": "Lab Technician",
+          "email": "nnathu@hcmiu.edu.vn",
+          "office": "Room LA1.501",
+          "imageUrl": "https://bt.hcmiu.edu.vn/ftp_images/ua_07072023091229008.jpg"
+        },
+        {
+          "name": "BSc. Uyen HD Ho",
+          "position": "Lab Technician",
+          "email": "hhduyen@hcmiu.edu.vn",
+          "office": "Aqua Lab",
+          "imageUrl": "https://bt.hcmiu.edu.vn/ftp_images/ua_06072023033455655.jpg"
+        },
+        {
+          "name": "Assoc. Prof. Ha H V Nguyen",
+          "position": "Head of Department of Food Technology",
+          "email": "nvhha@hcmiu.edu.vn",
+          "office": "Room A1-706",
+          "imageUrl": "https://bt.hcmiu.edu.vn/ftp_images/ua_16082023101649874.jpg"
+        },
+        {
+          "name": "Assoc. Prof. Phu H Le",
+          "position": "Lecturer",
+          "email": "lhphu@hcmiu.edu.vn",
+          "office": "Room O2-712",
+          "imageUrl": "https://bt.hcmiu.edu.vn/ftp_images/ua_08072023090700254.png"
+        },
+        {
+          "name": "Prof. Hung V Pham",
+          "position": "Lecturer",
+          "email": "pvhung@hcmiu.edu.vn",
+          "office": "Room O2-705",
+          "imageUrl": "https://bt.hcmiu.edu.vn/ftp_images/ua_08072023015601079.jpeg"
+        },
+        {
+          "name": "Dr. Tuan Q Dang",
+          "position": "Lecturer",
+          "email": "dqtuan@hcmiu.edu.vn",
+          "office": "Room A1-706",
+          "imageUrl": "https://bt.hcmiu.edu.vn/ftp_images/ua_08072023013141253.jpeg"
+        },
+        {
+          "name": "Dr. Toan V Nguyen",
+          "position": "Lecturer",
+          "email": "nvtoan@gmail.com",
+          "office": "Room A1-706",
+          "imageUrl": "https://bt.hcmiu.edu.vn/ftp_images/ua_08072023020949451.jpeg"
+        },
+        {
+          "name": "Assoc. Prof. Lieu N Le",
+          "position": "Lecturer",
+          "email": "lnlieu@hcmiu.edu.vn",
+          "office": "Room A1-706",
+          "imageUrl": "https://bt.hcmiu.edu.vn/ftp_images/ua_08072023021119149.png"
+        },
+        {
+          "name": "Dr. Tien N T Nguyen",
+          "position": "Lecturer",
+          "email": "nnttien@hcmiu.edu.vn",
+          "office": "Room A1-706",
+          "imageUrl": "https://bt.hcmiu.edu.vn/ftp_images/ua_09072024095212365.jpg"
+        },
+        {
+          "name": "MSc. Giang T H Nguyen",
+          "position": "Lecturer",
+          "email": "nthuonggiang@hcmiu.edu.vn",
+          "office": "Room A1-706",
+          "imageUrl": "https://bt.hcmiu.edu.vn/ftp_images/ua_07072023041438733.jpg"
+        },
+        {
+          "name": "MSc. Nhi Y T Tran",
+          "position": "Lecturer",
+          "email": "ttynhi@hcmiu.edu.vn",
+          "office": "Room A1-706",
+          "imageUrl": "https://bt.hcmiu.edu.vn/ftp_images/ua_06072023112402893.jpg"
+        },
+        {
+          "name": "BEng. Nhi T Nguyen",
+          "position": "Teaching Asssistant",
+          "email": "ntnhi@hcmiu.edu.vn",
+          "office": "Room LA1-602",
+          "imageUrl": "https://bt.hcmiu.edu.vn/ftp_images/ua_07072023112749249.jpg"
+        },
+        {
+          "name": "BEng. Chung TN Dang",
+          "position": "Teaching Asssistant",
+          "email": "dtnchung@hcmiu.edu.vn",
+          "office": "Room LA1-602",
+          "imageUrl": "https://bt.hcmiu.edu.vn/ftp_images/ua_30092024010125978.jpg"
+        },
+        {
+          "name": "BEng. Khang V Quach",
+          "position": "Teaching Asssistant",
+          "email": "qvkhang@hcmiu.edu.vn",
+          "office": "Room A1-102",
+          "imageUrl": "https://bt.hcmiu.edu.vn/ftp_images/ua_02102024093455229.jpg"
+        },
+        {
+          "name": "BEng. An T Nguyen",
+          "position": "Lab Technician",
+          "email": "ntan@hcmiu.edu.vn",
+          "office": "Room LA1-602",
+          "imageUrl": "https://bt.hcmiu.edu.vn/ftp_images/ua_06072023082749465.jpg"
+        },
+        {
+          "name": "BEng. Nhi Y Dinh",
+          "position": "Lab Technician",
+          "email": "dynhi@hcmiu.edu.vn",
+          "office": "Room LA1-601",
+          "imageUrl": "https://bt.hcmiu.edu.vn/ftp_images/ua_10072023024831334.png"
+        },
+        {
+          "name": "BEng. Quynh TN Tran",
+          "position": "Lab Technician",
+          "email": "quynhttn@hcmiu.edu.vn",
+          "office": "Room A1-102",
+          "imageUrl": "https://bt.hcmiu.edu.vn/ftp_images/ua_07072023104512528.png"
+        },
+        {
+          "name": "MSc. Dao XA Bui",
+          "position": "Lecturer",
+          "email": "bxadao@hcmiu.edu.vn",
+          "office": "Room A1-704",
+          "imageUrl": "https://bt.hcmiu.edu.vn/ftp_images/ua_12072023084740683.jpg"
+        },
+        {
+          "name": "MSc. Lan H Nguyen",
+          "position": "Lecturer",
+          "email": "nhlan@hcmiu.edu.vn",
+          "office": "Room A1-704",
+          "imageUrl": "https://bt.hcmiu.edu.vn/ftp_images/ua_09072023093043376.jpg"
+        },
+        {
+          "name": "MSc. Phuc NT Le",
+          "position": "Reseacher",
+          "email": "lntphuc@hcmiu.edu.vn",
+          "office": "Room A1-704",
+          "imageUrl": "https://bt.hcmiu.edu.vn/ftp_images/ua_06072023025427221.jpeg"
+        },
+        {
+          "name": "MSc. Ly TT Trinh",
+          "position": "Reseacher",
+          "email": "tttly@hcmiu.edu.vn",
+          "office": "Room A1-704",
+          "imageUrl": "https://bt.hcmiu.edu.vn/ftp_images/ua_12072023094809012.jpg"
+        },
+        {
+          "name": "BSc. Chau T B Vo",
+          "position": "Lab Technician",
+          "email": "vtbchau@hcmiu.edu.vn",
+          "office": "International University",
+          "imageUrl": "https://bt.hcmiu.edu.vn/ftp_images/ua_10072023042250020.jpg"
+        },
+        {
+          "name": "MSc. Long M Tran",
+          "position": "Lab Technician",
+          "email": "tmlong@hcmiu.edu.vn",
+          "office": "International University",
+          "imageUrl": "https://bt.hcmiu.edu.vn/ftp_images/ua_10072023120240125.jpg"
+        }
+      ]
+    },
+    {
+      "majorName": "School of Biomedical Engineering",
+      "lecturers": [
+        {
+          "name": "Assoc. Dr. NGUYỄN THỊ HIỆP",
+          "position": "Dean of School of Biomedical Engineering",
+          "email": "nthiep@hcmiu.edu.vn",
+          "office": "Room O1-405",
+          "imageUrl": "https://bme.hcmiu.edu.vn/wp-content/uploads/2023/09/image1.png"
+        },
+        {
+          "name": "Assoc. Dr. PHẠM THỊ THU HIỀN",
+          "position": "Department of Medical Instrumentation",
+          "email": "ptthien@hcmiu.edu.vn",
+          "office": "Room O1-405",
+          "imageUrl": "https://bme.hcmiu.edu.vn/wp-content/uploads/2023/09/image31-e1694678263324.jpg"
+        },
+        {
+          "name": "Dr. NGÔ THỊ LỤA",
+          "position": "Lecturer",
+          "email": "ntlua@hcmiu.edu.vn",
+          "office": "Room O1-405",
+          "imageUrl": "https://bme.hcmiu.edu.vn/wp-content/uploads/2023/09/image26.jpg"
+        },
+        {
+          "name": "Assoc. Dr. LÊ NGỌC BÍCH",
+          "position": "Lecturer",
+          "email": "ltnbich@hcmiu.edu.vn",
+          "office": "Room O1-405",
+          "imageUrl": "https://bme.hcmiu.edu.vn/wp-content/uploads/2023/09/image3.jpeg"
+        },
+        {
+          "name": "Dr. NGUYỄN THÀNH QUẢ",
+          "position": "Lecturer",
+          "email": "ntqua@hcmiu.edu.vn",
+          "office": "Room O1-405",
+          "imageUrl": "https://bme.hcmiu.edu.vn/wp-content/uploads/2023/09/image4.jpeg"
+        },
+        {
+          "name": "Dr. TRẦN LÊ GIANG",
+          "position": "Lecturer",
+          "email": "tlgiang@hcmiu.edu.vn",
+          "office": "Room O1-405",
+          "imageUrl": "https://bme.hcmiu.edu.vn/wp-content/uploads/2023/09/image5.jpeg"
+        },
+        {
+          "name": "Dr. NGUYỄN TẤN NHƯ",
+          "position": "Lecturer",
+          "email": "ntnhu@hcmiu.edu.vn",
+          "office": "Room O1-405",
+          "imageUrl": "https://bme.hcmiu.edu.vn/wp-content/uploads/2023/09/image22.jpg"
+        },
+        {
+          "name": "TS. HÀ THỊ THANH HƯƠNG",
+          "position": "Department chair of Department of tissue engineering and regenerative medicine",
+          "email": "htthuong@hcmiu.edu.vn",
+          "office": "Room O1-405",
+          "imageUrl": "https://bme.hcmiu.edu.vn/wp-content/uploads/2023/09/image24.jpeg"
+        },
+        {
+          "name": "PGS.TS. HUỲNH.CHẤN.KHÔN",
+          "position": "Lecturer",
+          "email": "hckhon@hcmiu.edu.vn",
+          "office": "Room O1-405",
+          "imageUrl": "https://bme.hcmiu.edu.vn/wp-content/uploads/2023/09/image23.jpeg"
+        },
+        {
+          "name": "TS. TRƯƠNG PHƯỚC LONG",
+          "position": "Lecturer",
+          "email": "tplong@hcmiu.edu.vn",
+          "office": "Room O1-405",
+          "imageUrl": "https://bme.hcmiu.edu.vn/wp-content/uploads/2023/09/image30.png"
+        },
+        {
+          "name": "TS. ĐOÀN NGỌC HOAN",
+          "position": "Lecturer",
+          "email": "dnhoan@hcmiu.edu.vn",
+          "office": "Room O1-405",
+          "imageUrl": "https://bme.hcmiu.edu.vn/wp-content/uploads/2023/05/Hinh-Doan-Ngoc-Hoan.jpg"
+        },
+        {
+          "name": "TS. TÔ THỊ NGỌC HÂN",
+          "position": "Lecturer",
+          "email": "ttnhan@hcmiu.edu.vn",
+          "office": "Room O1-405",
+          "imageUrl": "https://bme.hcmiu.edu.vn/wp-content/uploads/2023/09/image25.jpeg"
+        },
+        {
+          "name": "ThS. Nguyễn Dương Đức Anh",
+          "position": "Lecturer",
+          "email": "nddanh@hcmiu.edu.vn",
+          "office": "Room O1-405",
+          "imageUrl": "https://bme.hcmiu.edu.vn/wp-content/uploads/2024/11/z5524958157414_14387c6d5b73b91500031a776910594b.jpg"
+        }
+      ]
+    }
+  ]
+}
