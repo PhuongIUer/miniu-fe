@@ -3,7 +3,7 @@ import { FaUser, FaEnvelope, FaLock, FaCamera, FaSave, FaGraduationCap, FaBriefc
 import axios from 'axios';
 import { useAuthStore } from '../../stores/authStore';
 import './ProfilePage.css';
-
+import { useNavigate } from 'react-router-dom';
 const Profile: React.FC = () => {
   const {
     userName,
@@ -34,14 +34,17 @@ const Profile: React.FC = () => {
   const [isLoadingPassword, setIsLoadingPassword] = useState(false);
   const [passwordError, setPasswordError] = useState<string | null>(null);
   const [passwordSuccess, setPasswordSuccess] = useState<string | null>(null);
-
+  const navigate = useNavigate();
   useEffect(() => {
-    if (!localStorage.getItem('authToken')) {
-      window.location.href = '/login'; // Redirect to login if not authenticated
-      return;
-    }
     fetchUserProfile();
   }, [fetchUserProfile]);
+
+  useEffect(() => {
+    const authToken = localStorage.getItem('authToken');
+    if (!authToken) {
+      navigate('/login');
+    }
+  }, [navigate]);
 
   useEffect(() => {
     setUsername(userName);

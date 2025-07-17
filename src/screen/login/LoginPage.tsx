@@ -3,6 +3,7 @@ import { FaUser, FaLock, FaEye, FaEyeSlash } from 'react-icons/fa';
 import axios from 'axios';
 import './LoginPage.css';
 import { useAuthStore } from '../../stores/authStore';
+import { useNavigate } from 'react-router-dom';
 
 interface RememberedUser {
   email: string;
@@ -17,11 +18,9 @@ const Login: React.FC = () => {
   const [showPassword, setShowPassword] = useState(false);
   const [isLoading, setIsLoading] = useState(false);
   const [error, setError] = useState('');
+  const navigate = useNavigate();
   // Load remembered credentials
   useEffect(() => {
-    if (localStorage.getItem('authToken')) {
-      window.location.href = '/profile'; // Redirect if already logged in
-    }
     const remembered = localStorage.getItem('rememberedUser');
     if (remembered) {
       const user: RememberedUser = JSON.parse(remembered);
@@ -75,11 +74,7 @@ const Login: React.FC = () => {
     } else {
       localStorage.removeItem('rememberedUser');
     }
-
-    // Redirect - có thể sử dụng navigate nếu dùng React Router
-    window.location.href = '/profile'; // Hoặc nếu dùng React Router: navigate('/profile', { replace: true });
-    // Hoặc nếu dùng React Router: navigate('/admin', { replace: true });
-
+    navigate('/profile'); // Redirect to profile page after successful login
   } catch (err: any) {
     const message = err.response?.data?.message || 'Login failed. Please try again.';
     setError(message);
