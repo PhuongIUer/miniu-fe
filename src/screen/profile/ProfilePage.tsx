@@ -36,6 +36,10 @@ const Profile: React.FC = () => {
   const [passwordSuccess, setPasswordSuccess] = useState<string | null>(null);
 
   useEffect(() => {
+    if (!localStorage.getItem('authToken')) {
+      window.location.href = '/login'; // Redirect to login if not authenticated
+      return;
+    }
     fetchUserProfile();
   }, [fetchUserProfile]);
 

@@ -19,6 +19,10 @@ const Login: React.FC = () => {
   const [error, setError] = useState('');
   // Load remembered credentials
   useEffect(() => {
+    if (localStorage.getItem('authToken')) {
+      window.location.href = '/profile'; // Redirect if already logged in
+      return;
+    }
     const remembered = localStorage.getItem('rememberedUser');
     if (remembered) {
       const user: RememberedUser = JSON.parse(remembered);
@@ -74,7 +78,7 @@ const Login: React.FC = () => {
     }
 
     // Redirect - có thể sử dụng navigate nếu dùng React Router
-    window.location.href = '/admin';
+    window.location.href = '/profile'; // Hoặc nếu dùng React Router: navigate('/profile', { replace: true });
     // Hoặc nếu dùng React Router: navigate('/admin', { replace: true });
 
   } catch (err: any) {
