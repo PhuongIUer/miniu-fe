@@ -7,7 +7,7 @@ import mockData from './mockdata.json'
 
 const CurriculumManagement: React.FC = () => {
   const [currentCurriculum, setCurrentCurriculum] = useState<Curriculum | null>(null);
-  const [mockCurriculum, setMockCurriculum] = useState<Curriculum | null>(mockData);
+  const [mockCurriculum] = useState<Curriculum | null>(mockData);
   const [draftCurriculum, setDraftCurriculum] = useState<Major[]>([]);
   const [expanded, setExpanded] = useState<Record<string, boolean>>({});
   const [editingItem, setEditingItem] = useState<{
