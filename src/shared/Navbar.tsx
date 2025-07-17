@@ -69,7 +69,6 @@ const Navbar = () => {
     try {
       await logout();
       setShowDropdown(false);
-      navigate('/login');
     } catch (error) {
       console.error('Logout failed:', error);
     }
