@@ -10,8 +10,8 @@ import mockData from './mockdata.json'
 
 const UserManagement: React.FC = () => {
   const [loadingMockData] = useState<MajorLecturerList>(mockData);
-  const [users, setUsers] = useState<User[]>([]);
-  const [filteredUsers, setFilteredUsers] = useState<User[]>([]);
+  const [allUsers, setAllUsers] = useState<User[]>([]); // Stores all 500 users
+  const [displayedUsers, setDisplayedUsers] = useState<User[]>([]); // Users to display on current page
   const [searchTerm, setSearchTerm] = useState('');
   const [selectedMajor, setSelectedMajor] = useState<string>('all');
   const [isLoading, setIsLoading] = useState(true);
@@ -25,34 +25,34 @@ const UserManagement: React.FC = () => {
   });
   const passwordDefault = "111111"
 
-      const fetchUsers = async () => {
-      setIsLoading(true);
-      try {
-        const response = await userApi.getUsers(pagination.page, pagination.limit);
-        const data = response.data;
-        
-        setUsers(data.items);
-        setFilteredUsers(data.items);
-        setPagination(prev => ({
-          ...prev,
-          totalItems: data.meta.totalItems,
-          totalPages: data.meta.totalPages
-        }));
-      } catch (error) {
-        console.error('Error fetching users:', error);
-        // Xử lý lỗi (hiển thị thông báo, v.v.)
-      } finally {
-        setIsLoading(false);
-      }
-    };
-  // Fetch users from API
-  useEffect(() => {
-    fetchUsers();
-  }, [pagination.page, pagination.limit]);
+  const fetchAllUsers = async () => {
+    setIsLoading(true);
+    try {
+      // Fetch 500 users at once
+      const response = await userApi.getUsers(1, 500);
+      const data = response.data;
+      
+      setAllUsers(data.items);
+      setDisplayedUsers(data.items.slice(0, pagination.limit)); // Show first 10 initially
+      setPagination(prev => ({
+        ...prev,
+        totalItems: data.items.length, // Use the actual count of fetched users
+        totalPages: Math.ceil(data.items.length / prev.limit)
+      }));
+    } catch (error) {
+      console.error('Error fetching users:', error);
+    } finally {
+      setIsLoading(false);
+    }
+  };
 
-  // Filter users (giữ nguyên)
   useEffect(() => {
-    let result = users;
+    fetchAllUsers();
+  }, []);
+
+  // Filter users and update pagination
+  useEffect(() => {
+    let result = allUsers;
     
     if (searchTerm) {
       result = result.filter(user => 
@@ -67,8 +67,20 @@ const UserManagement: React.FC = () => {
       result = result.filter(user => user.major === null);
     }
     
-    setFilteredUsers(result);
-  }, [searchTerm, selectedMajor, users]);
+    // Update pagination
+    const totalPages = Math.ceil(result.length / pagination.limit);
+    setPagination(prev => ({
+      ...prev,
+      totalItems: result.length,
+      totalPages: totalPages
+    }));
+    
+    // Update displayed users
+    const startIndex = (pagination.page - 1) * pagination.limit;
+    const endIndex = startIndex + pagination.limit;
+    setDisplayedUsers(result.slice(startIndex, endIndex));
+  }, [searchTerm, selectedMajor, allUsers, pagination.page, pagination.limit]);
+
 
 async function urlToFile(proxyUrl: string, filename?: string): Promise<File> {
   const response = await fetch(proxyUrl);
@@ -168,7 +180,7 @@ const createListUser = async (data: MajorLecturerList) => {
     }
     
     // Refresh the user list after all operations
-    await fetchUsers();
+    await fetchAllUsers();
     alert('Batch user processing completed!');
     
   } catch (error) {
@@ -176,10 +188,13 @@ const createListUser = async (data: MajorLecturerList) => {
     alert('An error occurred during batch user processing');
   }
 };
-
+  const changeMajor = async (major: string) => {
+    setSelectedMajor(major);
+    setPagination(prev => ({ ...prev, page: 1 })); 
+  };
   const handleCreateUser = async () => {
     try {
-      fetchUsers();
+      fetchAllUsers();
       setShowCreateModal(false);
     } catch (error) {
       console.error('Error creating user:', error);
@@ -187,16 +202,17 @@ const createListUser = async (data: MajorLecturerList) => {
   };
 
   const handleUpdateUser = async () => {
-    fetchUsers();
+    fetchAllUsers();
   };
 
   const handleDeleteUser = async (userId: number) => {
     if (window.confirm('Are you sure you want to delete this user?')) {
       try {
         await userApi.deleteUser(userId);
-        setUsers(prev => prev.filter(user => user.id !== userId));
       } catch (error) {
         console.error('Error deleting user:', error);
+      } finally {
+        fetchAllUsers();
       }
     }
   };
@@ -208,7 +224,7 @@ const createListUser = async (data: MajorLecturerList) => {
   // Get unique majors (giữ nguyên)
   const uniqueMajors = [
     'all',
-    ...Array.from(new Set(users.map(user => user.major).filter(Boolean))) as string[],
+    ...Array.from(new Set(allUsers.map(user => user.major).filter(Boolean))) as string[],
     'null'
   ];
 
@@ -231,7 +247,7 @@ const createListUser = async (data: MajorLecturerList) => {
               <FaFilter className="filter-icon" />
               <select
                 value={selectedMajor}
-                onChange={(e) => setSelectedMajor(e.target.value)}
+                onChange={(e) => changeMajor(e.target.value)}
               >
                 {uniqueMajors.map(major => (
                   <option key={major} value={major}>
@@ -281,8 +297,8 @@ const createListUser = async (data: MajorLecturerList) => {
                 </tr>
               </thead>
               <tbody>
-                {filteredUsers.length > 0 ? (
-                  filteredUsers.map(user => (
+                {displayedUsers.length > 0 ? (
+                  displayedUsers.map(user => (
                     <tr key={user.id}>
                       <td className='user-box'>
                         <div className="user-avatar">
@@ -339,31 +355,48 @@ const createListUser = async (data: MajorLecturerList) => {
             </table>
           </div>
 
-          {/* Pagination controls */}
+
+    {/* Improved Pagination controls */}
           {pagination.totalPages > 1 && (
             <div className="user-pagination">
               <button
+                className={`pagination-button ${pagination.page === 1 ? 'disabled' : ''}`}
                 disabled={pagination.page === 1}
                 onClick={() => handlePageChange(pagination.page - 1)}
               >
-                Previous
+                &laquo; Previous
               </button>
               
-              {Array.from({ length: pagination.totalPages }, (_, i) => i + 1).map(page => (
-                <button
-                  key={page}
-                  className={pagination.page === page ? 'active' : ''}
-                  onClick={() => handlePageChange(page)}
-                >
-                  {page}
-                </button>
-              ))}
+              {Array.from({ length: Math.min(5, pagination.totalPages) }, (_, i) => {
+                // Show only 5 page buttons at a time
+                let pageNum;
+                if (pagination.totalPages <= 5) {
+                  pageNum = i + 1;
+                } else if (pagination.page <= 3) {
+                  pageNum = i + 1;
+                } else if (pagination.page >= pagination.totalPages - 2) {
+                  pageNum = pagination.totalPages - 4 + i;
+                } else {
+                  pageNum = pagination.page - 2 + i;
+                }
+                
+                return (
+                  <button
+                    key={pageNum}
+                    className={`pagination-button ${pagination.page === pageNum ? 'active' : ''}`}
+                    onClick={() => handlePageChange(pageNum)}
+                  >
+                    {pageNum}
+                  </button>
+                );
+              })}
               
               <button
+                className={`pagination-button ${pagination.page === pagination.totalPages ? 'disabled' : ''}`}
                 disabled={pagination.page === pagination.totalPages}
                 onClick={() => handlePageChange(pagination.page + 1)}
               >
-                Next
+                Next &raquo;
               </button>
             </div>
           )}
