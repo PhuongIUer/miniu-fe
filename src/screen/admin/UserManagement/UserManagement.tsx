@@ -51,36 +51,58 @@ const UserManagement: React.FC = () => {
   }, []);
 
   // Filter users and update pagination
-  useEffect(() => {
-    let result = allUsers;
-    
-    if (searchTerm) {
-      result = result.filter(user => 
-        user.userName.toLowerCase().includes(searchTerm.toLowerCase()) ||
-        user.email.toLowerCase().includes(searchTerm.toLowerCase())
-      );
-    }
-    
-    if (selectedMajor !== 'all' && selectedMajor !== 'null') {
-      result = result.filter(user => user.major === selectedMajor);
-    } else if (selectedMajor === 'null') {
-      result = result.filter(user => user.major === null);
-    }
-    
-    // Update pagination
-    const totalPages = Math.ceil(result.length / pagination.limit);
-    setPagination(prev => ({
-      ...prev,
-      totalItems: result.length,
-      totalPages: totalPages
-    }));
-    
-    // Update displayed users
-    const startIndex = (pagination.page - 1) * pagination.limit;
-    const endIndex = startIndex + pagination.limit;
-    setDisplayedUsers(result.slice(startIndex, endIndex));
-  }, [searchTerm, selectedMajor, allUsers, pagination.page, pagination.limit]);
+useEffect(() => {
+  let result = allUsers;
+  
+  if (searchTerm) {
+    result = result.filter(user => 
+      user.userName.toLowerCase().includes(searchTerm.toLowerCase()) ||
+      user.email.toLowerCase().includes(searchTerm.toLowerCase())
+    );
+  }
+  
+  if (selectedMajor !== 'all' && selectedMajor !== 'null') {
+    result = result.filter(user => user.major === selectedMajor);
+  } else if (selectedMajor === 'null') {
+    result = result.filter(user => user.major === null);
+  }
 
+  // Sort users by position priority
+  result = result.sort((a, b) => {
+    const getPositionPriority = (position: string | null) => {
+      if (!position) return 999;
+      const lowerPosition = position.toLowerCase();
+
+      if (lowerPosition.includes('vice dean')) return 3;
+      if (lowerPosition.includes('dean of')) return 1;
+      if (lowerPosition.includes('head of')) return 2;
+      if (lowerPosition.includes('secretary')) return 4;
+      return 5;
+    };
+
+    const aPriority = getPositionPriority(a.position);
+    const bPriority = getPositionPriority(b.position);
+
+    // If same priority, sort alphabetically by name
+    if (aPriority === bPriority) {
+      return a.userName.localeCompare(b.userName);
+    }
+    return aPriority - bPriority;
+  });
+
+  // Update pagination
+  const totalPages = Math.ceil(result.length / pagination.limit);
+  setPagination(prev => ({
+    ...prev,
+    totalItems: result.length,
+    totalPages: totalPages
+  }));
+  
+  // Update displayed users
+  const startIndex = (pagination.page - 1) * pagination.limit;
+  const endIndex = startIndex + pagination.limit;
+  setDisplayedUsers(result.slice(startIndex, endIndex));
+}, [searchTerm, selectedMajor, allUsers, pagination.page, pagination.limit]);
 
 async function urlToFile(proxyUrl: string, filename?: string): Promise<File> {
   const response = await fetch(proxyUrl);
