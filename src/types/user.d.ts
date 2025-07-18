@@ -27,3 +27,13 @@ export interface newUser {
   password: string
   userName: string
 }
+
+export interface access_token {
+  access_token: string
+}
+
+export interface IchangePassword {
+  currentPassword: string
+  newPassword: string
+  confirmPassword: string
+}

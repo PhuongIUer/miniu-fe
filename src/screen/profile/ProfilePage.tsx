@@ -4,6 +4,9 @@ import axios from 'axios';
 import { useAuthStore } from '../../stores/authStore';
 import './ProfilePage.css';
 import { useNavigate } from 'react-router-dom';
+import { userApi, authApi } from '../../api/api';
+
+
 const Profile: React.FC = () => {
   const {
     userName,
@@ -87,18 +90,7 @@ const Profile: React.FC = () => {
       if (currentPosition !== position) formData.append('position', currentPosition);
       if (currentOffice !== office) formData.append('office', currentOffice);
       
-      const response = await axios.patch(
-        'https://dfd0783d3578.ngrok-free.app/api/users/current-profile',
-        formData,
-        {
-          headers: {
-
-            'ngrok-skip-browser-warning': 'true',
-            'Authorization': `Bearer ${token}`,
-            'Content-Type': 'multipart/form-data'
-          }
-        }
-      );
+      const response = await userApi.updateCurrentUser(formData)
 
       if (response.status === 200) {
         await fetchUserProfile();
@@ -128,21 +120,7 @@ const Profile: React.FC = () => {
       const token = localStorage.getItem('authToken');
       if (!token) throw new Error('No authentication token found');
 
-      const response = await axios.post(
-        'https://dfd0783d3578.ngrok-free.app/api/auth/change-password',
-        {
-          currentPassword,
-          newPassword,
-          confirmPassword
-        },
-        {
-          headers: {
-            'ngrok-skip-browser-warning': 'true',
-            'Authorization': `Bearer ${token}`,
-            'Content-Type': 'application/json'
-          }
-        }
-      );
+      const response = await authApi.changePass(currentPassword, newPassword, confirmPassword)
 
       if (response.status === 200) {
         setPasswordSuccess('Password has been changed successfully');

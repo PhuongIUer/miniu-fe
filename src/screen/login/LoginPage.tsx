@@ -1,10 +1,9 @@
 import React, { useState, useEffect } from 'react';
 import { FaUser, FaLock, FaEye, FaEyeSlash } from 'react-icons/fa';
-import axios from 'axios';
 import './LoginPage.css';
 import { useAuthStore } from '../../stores/authStore';
 import { useNavigate } from 'react-router-dom';
-
+import { authApi } from '../../api/api';
 interface RememberedUser {
   email: string;
   password: string;
@@ -53,10 +52,7 @@ const Login: React.FC = () => {
   setIsLoading(true);
 
   try {
-    const response = await axios.post('https://dfd0783d3578.ngrok-free.app/api/auth/login', {
-      email,
-      password
-    });
+    const response = await authApi.login(email, password)
 
     const accessToken = response.data.access_token;
     localStorage.setItem('authToken', accessToken);
