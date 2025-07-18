@@ -31,7 +31,9 @@
   text-decoration: none;
   display: flex;
   align-items: center;
-  text-decoration-thickness:unset
+  text-decoration-thickness:unset;
+  pointer-events: none;
+  cursor: default;
 }
 
 .logo-img {
