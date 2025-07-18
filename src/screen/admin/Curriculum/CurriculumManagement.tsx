@@ -193,6 +193,8 @@ const CurriculumManagement: React.FC = () => {
     }
   }
   const saveCurriculum = async () => {
+    if(!window.confirm('Are you sure you want to update all data?\nThis will overwrite existing data. Please know what you are doing!'))
+      return;
     try {
       setIsLoading(true);
       

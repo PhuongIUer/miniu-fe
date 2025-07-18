@@ -121,7 +121,7 @@ function encodeEmail(email: string): string {
 }
 
 const createListUser = async (data: MajorLecturerList) => {
-  if(!window.confirm('Are you sure you want to update all user ? \nThis will overwrite existing data. Please know what are you doing!'))
+  if(window.confirm('Are you sure you want to update all user ? \nThis will overwrite existing data. Please know what are you doing!'))
   try {
     // Process all majors and lecturers sequentially
     
@@ -210,6 +210,7 @@ const createListUser = async (data: MajorLecturerList) => {
     console.error('Error in createListUser:', error);
     alert('An error occurred during batch user processing');
   }
+  return;
 };
   const changeMajor = async (major: string) => {
     setSelectedMajor(major);
