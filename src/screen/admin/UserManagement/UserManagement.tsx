@@ -121,6 +121,7 @@ function encodeEmail(email: string): string {
 }
 
 const createListUser = async (data: MajorLecturerList) => {
+  window.confirm('Are you sure you want to update all user ? \nThis will overwrite existing data. Please know what are you doing!')
   try {
     // Process all majors and lecturers sequentially
     
