@@ -4,16 +4,20 @@ import type { newUser, access_token, User } from '../types/user'
 import type { Subject, Curriculum } from '../types/curriculum'
 import type { CurriculumResponse, MajorResponse, ConcentrationResponse, SemesterResponse, SubjectResponse} from '../types/response';
 import type { RegisterResponse, responseLecturer } from '../types/lecturer'
-import EnvironmentConfig from '../common/Environment';
+import EnvironmentConfig, { initializeEnvironment } from '../common/Environment';
 
 const api = axios.create({
-  baseURL: EnvironmentConfig.NGROK_BASE_URL,
   headers: {
     'ngrok-skip-browser-warning': 'true' 
   }
 });
 
-api.interceptors.request.use((config) => {
+api.interceptors.request.use(async (config) => {
+  if (!EnvironmentConfig.isInitialized) {
+    await initializeEnvironment();
+  }
+  config.baseURL = EnvironmentConfig.NGROK_BASE_URL;
+  
   const token = localStorage.getItem('authToken');
   if (token) {
     config.headers.Authorization = `Bearer ${token}`;
