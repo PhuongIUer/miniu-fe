@@ -148,6 +148,7 @@ const CurriculumManagement: React.FC = () => {
       return newCurriculum;
     });
   };
+  
   const loadingMockData = async () => {
     if(!window.confirm('Are you sure you want to update all data?\nThis will overwrite existing data. Please know what you are doing!'))
       return;
@@ -192,6 +193,7 @@ const CurriculumManagement: React.FC = () => {
       setIsLoading(false);
     }
   }
+
   const saveCurriculum = async () => {
     if(!window.confirm('Are you sure you want to update all data?\nThis will overwrite existing data. Please know what you are doing!'))
       return;
