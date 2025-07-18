@@ -40,6 +40,10 @@ export const useAuthStore = create<AuthState>((set, get) => ({
   fetchUserProfile: async () => {
     try {
       const response = await authApi.getProfile();
+      if (response.status == 401) {
+        await get().logout(); // If response is 401, logout user
+        throw new Error('Token expired');
+      }
       const userData = response.data;
 
       set({
