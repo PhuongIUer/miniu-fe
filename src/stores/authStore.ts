@@ -67,7 +67,8 @@ export const useAuthStore = create<AuthState>((set, get) => ({
       if (error.response?.status === 401) {
         set({ tokenExpired: true });
       }
-      
+      localStorage.removeItem('authToken');
+      localStorage.removeItem('currentUser');
       set({ isLoggedIn: false });
     }
   },
