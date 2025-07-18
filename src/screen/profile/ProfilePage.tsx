@@ -12,7 +12,8 @@ const Profile: React.FC = () => {
     major,
     position,
     office,
-    fetchUserProfile
+    fetchUserProfile,
+    isTokenExpired
   } = useAuthStore();
 
   // Profile info states
@@ -37,7 +38,10 @@ const Profile: React.FC = () => {
   const navigate = useNavigate();
   useEffect(() => {
     fetchUserProfile();
-  }, [fetchUserProfile]);
+    if (isTokenExpired()) {
+      navigate('/login'); // Redirect to login if token is expired
+    }
+  }, [fetchUserProfile, isTokenExpired]);
 
   useEffect(() => {
     const authToken = localStorage.getItem('authToken');
