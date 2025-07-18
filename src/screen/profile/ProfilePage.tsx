@@ -1,6 +1,5 @@
 import React, { useState, useEffect } from 'react';
 import { FaUser, FaEnvelope, FaLock, FaCamera, FaSave, FaGraduationCap, FaBriefcase, FaBuilding, FaKey } from 'react-icons/fa';
-import axios from 'axios';
 import { useAuthStore } from '../../stores/authStore';
 import './ProfilePage.css';
 import { useNavigate } from 'react-router-dom';

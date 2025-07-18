@@ -1,6 +1,6 @@
 import axios from "axios";
 import type { UserResponse } from '../types/response';
-import type { newUser, access_token, User, IchangePassword } from '../types/user'
+import type { newUser, access_token, User } from '../types/user'
 import type { Subject, Curriculum } from '../types/curriculum'
 import type { CurriculumResponse, MajorResponse, ConcentrationResponse, SemesterResponse, SubjectResponse} from '../types/response';
 import type { RegisterResponse, responseLecturer } from '../types/lecturer'
