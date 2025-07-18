@@ -74,8 +74,8 @@ useEffect(() => {
       const lowerPosition = position.toLowerCase();
       
       if (lowerPosition.includes('vice')) return 2;
-      if (lowerPosition.includes('dean of')) return 1;
-      if (lowerPosition.includes('head of')) return 3;
+      if (lowerPosition.includes('dean')) return 1;
+      if (lowerPosition.includes('head')) return 3;
       if (lowerPosition.includes('secretary')) return 4;
       if (lowerPosition.includes('lecturer')) return 10;
       return 5;
