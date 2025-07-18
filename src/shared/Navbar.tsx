@@ -80,7 +80,7 @@ const Navbar = () => {
       <div className="navbar-container">
         {/* Logo */}
         <div className="navbar-logo">
-          <a href="/" className="logo-link">
+          <a href="/profile" className="logo-link">
             <img src={logo} alt="Logo" className="logo-img" />
             MinIu
           </a>
