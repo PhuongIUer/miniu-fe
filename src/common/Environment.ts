@@ -1,5 +1,5 @@
 // Environment.ts
-const GITHUB_JSON_URL = "https://raw.githubusercontent.com/PhuongIUer/miniu-fe/main/src/common/domain.json";
+const GITHUB_JSON_URL = "https://res.cloudinary.com/miniu2025/raw/upload/v1752864252/domain_e7pfdj.json";
 
 const EnvironmentConfig = {
   NGROK_BASE_URL: "",
