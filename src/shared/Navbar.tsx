@@ -82,7 +82,7 @@ const Navbar = () => {
         <div className="navbar-logo">
           <a href="/" className="logo-link" >
             <img src={logo} alt="Logo" className="logo-img" />
-            MinIU-DB
+            <span>MinIU-DB</span>
           </a>
         </div>
 

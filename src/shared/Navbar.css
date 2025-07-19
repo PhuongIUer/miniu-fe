@@ -34,6 +34,7 @@
   text-decoration-thickness:unset;
   pointer-events: none;
   cursor: default;
+  white-space: nowrap;
 }
 
 .logo-img {
