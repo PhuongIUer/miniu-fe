@@ -39,10 +39,10 @@ export const userApi = {
   getUserbyEmail: (email: string) => api.get<responseLecturer>(`/users/email/${email}`),
   getUsers: (page: number, limit: number) => 
     api.get<UserResponse>('/users', { params: { page, limit } }),
-  updateUser: (id: number, data: Partial<any>) => api.patch(`/users/${id}/profile`, data),
+  updateUser: (id: number, data: FormData) => api.patch(`/users/${id}/profile`, data),
   deleteUser: (id: number) => api.delete(`/auth/users/${id}`),
   createUser: (data: Partial<newUser>) => api.post<RegisterResponse>(`/auth/register`, data),
-  updateCurrentUser: (data: FormData) => api.patch(`/users/current-profile`,{data}),
+  updateCurrentUser: (data: FormData) => api.patch(`/users/current-profile`,data),
 };
 export const curriApi = {
   getLastedCurri: () => api.get<Curriculum>('/curricula/latest'),
