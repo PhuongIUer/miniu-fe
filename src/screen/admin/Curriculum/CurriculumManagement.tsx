@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from 'react';
-import { FaEdit, FaTrash, FaPlus, FaChevronDown, FaChevronRight, FaSave, FaBook } from 'react-icons/fa';
+import { FaEdit, FaTrash, FaPlus, FaChevronDown, FaChevronRight, FaSave, FaBook, FaUpload } from 'react-icons/fa';
 import './CurriculumManagement.css';
 import type { Major, Curriculum } from '../../../types/curriculum';
 import { curriApi } from '../../../api/api';
@@ -256,7 +256,7 @@ const CurriculumManagement: React.FC = () => {
             <FaSave /> {isLoading ? 'Saving...' : 'Save Curriculum'}
           </button>
                     <button className="save-btn" onClick={loadingMockData} disabled={isLoading}>
-            <FaSave /> {isLoading ? 'Saving...' : 'Loading Data from Json'}
+            <FaUpload /> {isLoading ? 'Updating...' : 'Updating Data from Json'}
           </button>
         </div> 
       </div>

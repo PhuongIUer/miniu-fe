@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from 'react';
-import { FaUsers, FaSearch, FaFilter, FaPlus, FaEdit, FaTrash, FaUser } from 'react-icons/fa';
+import { FaUsers, FaSearch, FaFilter, FaPlus, FaEdit, FaTrash, FaUser, FaUpload } from 'react-icons/fa';
 import NewUserModal from './NewUserModal';
 import EditUserModal from './EditUserModal';
 import { userApi } from '../../../api/api';
@@ -293,7 +293,7 @@ const createListUser = async (data: MajorLecturerList) => {
             className="user-add-button"
             onClick={() => createListUser(loadingMockData)}
           >
-            <FaPlus /> Create List User
+            <FaUpload /> Update List User
           </button>
         </div>
       </div>
