@@ -86,7 +86,7 @@ const Login: React.FC = () => {
     <div className="login-container">
       <div className="login-card">
         <div className="login-header">
-          <h2 className="login-title">Welcome Back to <span className="miniu-text">MinIU-DB</span></h2>
+          <h2 className="login-title">Welcome Back to <span className="miniu-text">MinIU-FE</span></h2>
           <p className="login-subtitle">Please enter your email and password to login</p>
         </div>
 
