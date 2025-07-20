@@ -200,7 +200,7 @@ const CurriculumManagement: React.FC = () => {
     try {
       setIsLoading(true);
       
-      const curriculumName = currentCurriculum?.name || `New Curriculum ${new Date().toLocaleDateString()}`;
+      const curriculumName = `New Curriculum ${new Date().toLocaleDateString()}`;
       const { data: newCurriculum } = await curriApi.createCurri(curriculumName);
       
       if (!currentCurriculum || !currentCurriculum.majors) {
