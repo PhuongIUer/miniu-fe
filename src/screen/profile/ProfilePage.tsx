@@ -103,44 +103,46 @@ const Profile: React.FC = () => {
     }
   };
 
-  const handleUpdatePassword = async (e: React.FormEvent) => {
-    e.preventDefault();
-    setPasswordError(null);
-    setPasswordSuccess(null);
+ const handleUpdatePassword = async (e: React.FormEvent) => {
+  e.preventDefault();
+  setPasswordError(null);
+  setPasswordSuccess(null);
 
-    if (newPassword !== confirmPassword) {
-      setPasswordError("New passwords don't match!");
-      return;
+  if (newPassword !== confirmPassword) {
+    setPasswordError("New passwords don't match!");
+    return;
+  }
+
+  setIsLoadingPassword(true);
+
+  try {
+    const token = localStorage.getItem('authToken');
+    if (!token) throw new Error('No authentication token found');
+
+    const response = await authApi.changePass(currentPassword, newPassword, confirmPassword);
+
+    if (response.data.message === "Password has been changed successfully") {
+      setPasswordSuccess('Password has been changed successfully');
+      setCurrentPassword('');
+      setNewPassword('');
+      setConfirmPassword('');
+      
     }
+  } catch (error: any) {
+    console.error('Error changing password:', error);
+    if (error.response?.status === 400) {
+      setPasswordError(error.response.data.message || 'Invalid data or current password is incorrect');
+    } else if (error.response?.status === 401) {
+      setPasswordError('Unauthorized - Please login again');
 
-    setIsLoadingPassword(true);
-
-    try {
-      const token = localStorage.getItem('authToken');
-      if (!token) throw new Error('No authentication token found');
-
-      const response = await authApi.changePass(currentPassword, newPassword, confirmPassword)
-
-      if (response.status === 200) {
-        setPasswordSuccess('Password has been changed successfully');
-        setCurrentPassword('');
-        setNewPassword('');
-        setConfirmPassword('');
-        setIsEditingPassword(false);
-      }
-    } catch (error: any) {
-      console.error('Error changing password:', error);
-      if (error.response?.status === 400) {
-        setPasswordError(error.response.data.message || 'Invalid data or current password is incorrect');
-      } else if (error.response?.status === 401) {
-        setPasswordError('Unauthorized - Please login again');
-      } else {
-        setPasswordError('Failed to change password. Please try again.');
-      }
-    } finally {
-      setIsLoadingPassword(false);
+    } else {
+      setPasswordError('Failed to change password. Please try again.');
     }
-  };
+  } finally {
+    setIsLoadingPassword(false);
+    // Note: Removed setIsEditingPassword(false) from here to keep form open if error occurs
+  }
+};
 
   const toggleEditInfo = () => {
     setIsEditingInfo(!isEditingInfo);
