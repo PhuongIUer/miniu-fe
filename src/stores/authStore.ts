@@ -96,7 +96,7 @@ export const useAuthStore = create<AuthState>((set, get) => ({
     }
   },
 
-  isAdmin: () => get().role.id === 1,
-  isTeacher: () => get().role.id === 2,
+  isAdmin: () => get().role.name === 'admin',
+  isTeacher: () => get().role.name === 'teacher',
   isTokenExpired: () => get().tokenExpired, // Hàm kiểm tra token hết hạn
 }));
